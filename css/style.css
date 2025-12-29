@@ -1248,34 +1248,74 @@ body {
         grid-template-columns: 1fr;
     }
 
+    /* --- Quiz Mobile Fixes --- */
     .question-card {
-        padding: 1.5rem !important;
+        padding: 1.5rem 1rem !important;
     }
 
     #question-text {
-        font-size: 1.8rem;
-        line-height: 1.4;
+        font-size: 1.4rem;
+        line-height: 1.3;
+        margin-bottom: 1.5rem;
+        text-align: left;
+    }
+
+    .image-container {
+        max-width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    .options-grid {
+        gap: 0.75rem;
     }
 
     .option-btn {
-        padding: 1rem 1.25rem;
-        gap: 1rem;
+        padding: 0.85rem 1rem;
+        gap: 0.75rem;
     }
 
     .option-text {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .option-circle {
-        width: 44px;
-        height: 44px;
-        min-width: 44px;
-        font-size: 1.15rem;
+        width: 40px;
+        height: 40px;
+        min-width: 40px;
+        font-size: 1rem;
         border-radius: 10px;
+    }
+
+    .quiz-footer {
+        margin-top: 2rem;
+        padding-top: 1.5rem;
+        gap: 0.5rem;
+    }
+
+    .quiz-btn {
+        padding: 12px 16px;
+        font-size: 0.85rem;
+        flex: 1;
+        justify-content: center;
     }
 
     .footer-content {
         grid-template-columns: 1fr;
         gap: 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #question-text {
+        font-size: 1.25rem;
+    }
+
+    .quiz-header {
+        padding: 0.75rem 1rem;
+        gap: 1rem;
+    }
+
+    .logo-text {
+        font-size: 1.1rem;
     }
 }
