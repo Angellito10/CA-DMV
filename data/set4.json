@@ -1,0 +1,589 @@
+[
+  {
+    "question": "When backing up, you should use your steering wheel:",
+    "options": [
+      "With one hand at the 12 o'clock position",
+      "With two hands",
+      "With one finger",
+      "With your knees"
+    ],
+    "answer": 0,
+    "explanation": "One hand at 12 o'clock allows you to turn your body to look back."
+  },
+  {
+    "question": "If a large vehicle blocks your view of the road ahead, you should:",
+    "options": [
+      "Drop back to see around it",
+      "Follow closely to draft",
+      "Pass immediately",
+      "Honk"
+    ],
+    "answer": 0,
+    "explanation": "Drop back to increase visibility."
+  },
+  {
+    "question": "If you are stuck in mud or snow, you should:",
+    "options": [
+      "Spin your wheels fast",
+      "Rock the vehicle back and forth",
+      "Stay in the car forever",
+      "Honk"
+    ],
+    "answer": 1,
+    "explanation": "Rock the vehicle gently to gain traction.",
+    "image": "images/sign_slippery_when_wet.png"
+  },
+  {
+    "question": "When backing out of a parking space:",
+    "options": [
+      "Look over your shoulder",
+      "Use mirrors only",
+      "Honk",
+      "Trust your camera only"
+    ],
+    "answer": 0,
+    "explanation": "Look over your shoulder."
+  },
+  {
+    "question": "Which of these statements is true about road rage?",
+    "options": [
+      "It is common and unavoidable",
+      "You should honk back at angry drivers",
+      "You should avoid eye contact with angry drivers",
+      "You should get out of the car"
+    ],
+    "answer": 2,
+    "explanation": "Avoid eye contact and do not engage with aggressive drivers."
+  },
+  {
+    "question": "If you are getting tired while driving, the best thing to do is:",
+    "options": [
+      "Drink coffee",
+      "Open the window",
+      "Play loud music",
+      "Stop and rest"
+    ],
+    "answer": 3,
+    "explanation": "The only cure for fatigue is sleep. Stop and rest.",
+    "image": "images/sign_stop.png"
+  },
+  {
+    "question": "The safest place for a child 12 years old or younger is:",
+    "options": [
+      "The front seat",
+      "The back seat",
+      "The trunk",
+      "On a lap"
+    ],
+    "answer": 1,
+    "explanation": "Back seat is safest."
+  },
+  {
+    "question": "When you see a distracting hazard on the road (like an accident), you should:",
+    "options": [
+      "Slow down and look",
+      "Keep your eyes on the road and keep moving",
+      "Stop and take a picture",
+      "Call your friends"
+    ],
+    "answer": 1,
+    "explanation": "Avoid 'rubbernecking'. Keep traffic moving."
+  },
+  {
+    "question": "When backing up, you should:",
+    "options": [
+      "Look through the rear window",
+      "Rely on your mirrors",
+      "Honk your horn",
+      "Look straight ahead"
+    ],
+    "answer": 0,
+    "explanation": "Turn your head and look through the rear window."
+  },
+  {
+    "question": "To avoid 'highway hypnosis' on long trips, you should:",
+    "options": [
+      "Listen to loud music",
+      "Keep shifting your eyes",
+      "Drive faster",
+      "Drink coffee only"
+    ],
+    "answer": 1,
+    "explanation": "Keep your eyes moving and take breaks."
+  },
+  {
+    "question": "If you are involved in a collision, you must exchange with the other person(s):",
+    "options": [
+      "Driver license info",
+      "Proof of insurance",
+      "Vehicle registration",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "Exchange license, insurance, and registration info.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "Placing a rear-facing infant car seat in front of an airbag is:",
+    "options": [
+      "Safe",
+      "Illegal and dangerous",
+      "Allowed if the seat is fully back",
+      "Recommended"
+    ],
+    "answer": 1,
+    "explanation": "NEVER place a rear-facing seat in front of an active airbag."
+  },
+  {
+    "question": "If you see a blind pedestrian with a white cane or guide dog waiting to cross at a corner:",
+    "options": [
+      "Drive around them",
+      "Honk your horn",
+      "Pull up to the crosswalk so they can hear your engine",
+      "Stop and wait"
+    ],
+    "answer": 3,
+    "explanation": "Stop and wait. Do not honk or block the crosswalk.",
+    "image": "images/sign_stop.png"
+  },
+  {
+    "question": "Large trucks have 'No Zones' which are:",
+    "options": [
+      "Areas where they cannot drive",
+      "Blind spots around the truck",
+      "Loading zones",
+      "Parking areas"
+    ],
+    "answer": 1,
+    "explanation": "No Zones are the large blind spots where the truck driver cannot see you.",
+    "image": "images/sign_hill.png"
+  },
+  {
+    "question": "Generally speaking, you are in a large truck's blind spot if you:",
+    "options": [
+      "Drive close to the rear bumper",
+      "Cannot see the truck driver in the truck's side mirrors",
+      "Drive on the right side",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "If you can't see the driver's face in the mirror, they can't see you.",
+    "image": "images/sign_hill.png"
+  },
+  {
+    "question": "Animals may be transported in the back of a pickup truck only if:",
+    "options": [
+      "The sides are high",
+      "They are properly secured",
+      "The tailgate is up",
+      "They are leashed"
+    ],
+    "answer": 1,
+    "explanation": "Animals must be secured to prevent falling or jumping out.",
+    "image": "images/sign_hill.png"
+  },
+  {
+    "question": "Fleeing from peace officers is punishable by:",
+    "options": [
+      "A fine only",
+      "Imprisonment in county jail for not more than 1 year",
+      "Community service",
+      "Warning"
+    ],
+    "answer": 1,
+    "explanation": "Evading police is a serious crime punishable by jail time."
+  },
+  {
+    "question": "If you kill or injure an animal, you must:",
+    "options": [
+      "Leave it",
+      "Call the humane society or police",
+      "Move it off the road",
+      "Bury it"
+    ],
+    "answer": 1,
+    "explanation": "Call the humane society, police, or CHP. Do not leave it to suffer."
+  },
+  {
+    "question": "It is illegal to drive with a blood alcohol concentration (BAC) that is ___ or higher if you are 21 or older.",
+    "options": [
+      "0.08%",
+      "0.05%",
+      "0.01%",
+      "0.10%"
+    ],
+    "answer": 0,
+    "explanation": "0.08% is the legal limit for adults."
+  },
+  {
+    "question": "California's 'Zero Tolerance' law applies to:",
+    "options": [
+      "Drivers over 21",
+      "Drivers under 21",
+      "Commercial drivers",
+      "Motorcyclists"
+    ],
+    "answer": 1,
+    "explanation": "Zero Tolerance applies to drivers under 21 (0.01% BAC)."
+  },
+  {
+    "question": "A person convicted of driving recklessly or engaging in a speed contest which causes bodily injury to another person is subject to:",
+    "options": [
+      "Imprisonment and/or a fine",
+      "A warning",
+      "Traffic school",
+      "Nothing"
+    ],
+    "answer": 0,
+    "explanation": "Reckless driving causing injury is a serious offense."
+  },
+  {
+    "question": "If you are a minor and your cell phone rings while you are driving, you should:",
+    "options": [
+      "Answer it if you have a hands-free device",
+      "Let it go to voicemail",
+      "Answer it quickly",
+      "Text back"
+    ],
+    "answer": 1,
+    "explanation": "Minors cannot use cell phones at all while driving."
+  },
+  {
+    "question": "Lane splitting by motorcycles is:",
+    "options": [
+      "Illegal in California",
+      "Legal in California if done safely",
+      "Mandatory",
+      "Only allowed in summer"
+    ],
+    "answer": 1,
+    "explanation": "California is the only state where lane splitting is legal."
+  },
+  {
+    "question": "A funeral procession has the right of way:",
+    "options": [
+      "Always",
+      "Never",
+      "Only on Sundays",
+      "Only on highways"
+    ],
+    "answer": 0,
+    "explanation": "Do not cut through a funeral procession."
+  },
+  {
+    "question": "The fine for littering can be up to:",
+    "options": [
+      "$100",
+      "$500",
+      "$1,000",
+      "$5,000"
+    ],
+    "answer": 2,
+    "explanation": "$1,000 fine for littering."
+  },
+  {
+    "question": "You may wear a headset or earplugs in:",
+    "options": [
+      "Both ears",
+      "One ear only",
+      "Neither ear",
+      "Only for music"
+    ],
+    "answer": 1,
+    "explanation": "One ear only."
+  },
+  {
+    "question": "License plates must be visible from ___ feet.",
+    "options": [
+      "50",
+      "100",
+      "200",
+      "500"
+    ],
+    "answer": 0,
+    "explanation": "Must be readable from 50 feet."
+  },
+  {
+    "question": "If you change your address, you must notify the DMV within:",
+    "options": [
+      "5 days",
+      "10 days",
+      "30 days",
+      "1 year"
+    ],
+    "answer": 1,
+    "explanation": "10 days for address change."
+  },
+  {
+    "question": "If a pedestrian makes eye contact with you, they:",
+    "options": [
+      "Are ready to cross the street",
+      "Want a ride",
+      "Are angry",
+      "Are lost"
+    ],
+    "answer": 0,
+    "explanation": "Eye contact usually means they are ready to cross. Yield.",
+    "image": "images/sign_yield.png"
+  },
+  {
+    "question": "When passing a horse-drawn vehicle, you should:",
+    "options": [
+      "Honk",
+      "Speed up",
+      "Slow down and avoid sudden noises",
+      "Shout"
+    ],
+    "answer": 2,
+    "explanation": "Horses scare easily. Be quiet and slow."
+  },
+  {
+    "question": "If you see a blind pedestrian, you should:",
+    "options": [
+      "Stop no more than 5 feet from the crosswalk",
+      "Stop 20 feet away",
+      "Honk",
+      "Drive around"
+    ],
+    "answer": 0,
+    "explanation": "Stop close enough (5ft) so they can hear your engine, but don't block the path.",
+    "image": "images/sign_stop.png"
+  },
+  {
+    "question": "If you are convicted of driving with a BAC of 0.01% or higher as a minor:",
+    "options": [
+      "Your license will be suspended for 1 year",
+      "You get a warning",
+      "You pay $50",
+      "Nothing happens"
+    ],
+    "answer": 0,
+    "explanation": "1 year suspension for Zero Tolerance violation."
+  },
+  {
+    "question": "The Mature Driver Program is for drivers age:",
+    "options": [
+      "55 and older",
+      "65 and older",
+      "70 and older",
+      "50 and older"
+    ],
+    "answer": 0,
+    "explanation": "55 and older."
+  },
+  {
+    "question": "If you are involved in a collision where someone is killed or injured, you must report to CHP within:",
+    "options": [
+      "24 hours",
+      "48 hours",
+      "5 days",
+      "10 days"
+    ],
+    "answer": 0,
+    "explanation": "24 hours to report injuries/death.",
+    "image": "images/warning_signs.webp"
+  },
+  {
+    "question": "If you damage a parked car and can't find the owner, you must:",
+    "options": [
+      "Leave a note",
+      "Leave",
+      "Wait all day",
+      "Call a tow truck"
+    ],
+    "answer": 0,
+    "explanation": "Leave a note."
+  },
+  {
+    "question": "When you sell a vehicle, you must provide the buyer with:",
+    "options": [
+      "A smog certificate",
+      "A full tank of gas",
+      "New tires",
+      "Insurance"
+    ],
+    "answer": 0,
+    "explanation": "Seller must provide a valid smog cert (usually)."
+  },
+  {
+    "question": "The minimum amount of liability insurance coverage required for injury/death to one person is:",
+    "options": [
+      "$15,000",
+      "$30,000",
+      "$5,000",
+      "$10,000"
+    ],
+    "answer": 0,
+    "explanation": "$15,000 for one person.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "The minimum amount of liability insurance coverage required for injury/death to more than one person is:",
+    "options": [
+      "$30,000",
+      "$15,000",
+      "$50,000",
+      "$100,000"
+    ],
+    "answer": 0,
+    "explanation": "$30,000 for all persons.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "The minimum amount of liability insurance coverage required for property damage is:",
+    "options": [
+      "$5,000",
+      "$10,000",
+      "$15,000",
+      "$3,000"
+    ],
+    "answer": 0,
+    "explanation": "$5,000 for property damage.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "You must carry proof of financial responsibility (insurance) in your vehicle:",
+    "options": [
+      "At all times",
+      "Only on weekends",
+      "Only when driving alone",
+      "Never"
+    ],
+    "answer": 0,
+    "explanation": "Always carry proof of insurance.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "If you are involved in a hit-and-run accident:",
+    "options": [
+      "Your license will be revoked",
+      "You get a warning",
+      "You pay a fine",
+      "Nothing"
+    ],
+    "answer": 0,
+    "explanation": "Hit-and-run is a serious crime; license revocation is likely."
+  },
+  {
+    "question": "Engaging in a speed contest (street racing) is:",
+    "options": [
+      "Illegal and punishable by jail/fine",
+      "Legal at night",
+      "Legal on empty roads",
+      "Fun"
+    ],
+    "answer": 0,
+    "explanation": "Illegal. Jail/fine/suspension."
+  },
+  {
+    "question": "If you refuse to take a chemical test for DUI:",
+    "options": [
+      "Your license will be suspended for at least 1 year",
+      "You will be fined only",
+      "You will be let go",
+      "Nothing happens"
+    ],
+    "answer": 0,
+    "explanation": "Refusal results in mandatory suspension."
+  },
+  {
+    "question": "Driving under the influence of any drug which makes you drive unsafely is:",
+    "options": [
+      "Illegal",
+      "Permitted if prescribed",
+      "Permitted if over-the-counter",
+      "Okay"
+    ],
+    "answer": 0,
+    "explanation": "Illegal to drive under influence of ANY drug that impairs you."
+  },
+  {
+    "question": "If you have an open container of alcohol in the car:",
+    "options": [
+      "You can be fined",
+      "It's okay if you don't drink",
+      "It's okay if it's in a bag",
+      "It's okay for passengers"
+    ],
+    "answer": 0,
+    "explanation": "Illegal to have open container in passenger area."
+  },
+  {
+    "question": "A driver under 21 found with alcohol in the vehicle may have their vehicle impounded for:",
+    "options": [
+      "30 days",
+      "1 day",
+      "1 week",
+      "Never"
+    ],
+    "answer": 0,
+    "explanation": "Vehicle can be impounded for 30 days."
+  },
+  {
+    "question": "If you are under 21 and convicted of DUI:",
+    "options": [
+      "Your license will be suspended for 1 year",
+      "You get a warning",
+      "You pay $100",
+      "Nothing"
+    ],
+    "answer": 0,
+    "explanation": "1 year suspension."
+  },
+  {
+    "question": "Smoking cannabis while driving is:",
+    "options": [
+      "Illegal",
+      "Legal if you have a card",
+      "Legal at night",
+      "Legal"
+    ],
+    "answer": 0,
+    "explanation": "Illegal to smoke/ingest cannabis while driving."
+  },
+  {
+    "question": "Parking fines are the responsibility of:",
+    "options": [
+      "The vehicle owner",
+      "The driver only",
+      "The passenger",
+      "Nobody"
+    ],
+    "answer": 0,
+    "explanation": "The registered owner is responsible for parking tickets."
+  },
+  {
+    "question": "If you evade a police officer and cause serious bodily injury:",
+    "options": [
+      "You may be imprisoned in state prison",
+      "You get a ticket",
+      "You get a warning",
+      "Nothing"
+    ],
+    "answer": 0,
+    "explanation": "State prison for 3, 5, or 7 years."
+  },
+  {
+    "question": "If you are convicted of reckless driving:",
+    "options": [
+      "You may be jailed and/or fined",
+      "You get a warning",
+      "You lose your car",
+      "Nothing"
+    ],
+    "answer": 0,
+    "explanation": "Jail and/or fine."
+  },
+  {
+    "question": "You must yield to a pedestrian with a white cane:",
+    "options": [
+      "At all times",
+      "Only at crosswalks",
+      "Only in the city",
+      "Never"
+    ],
+    "answer": 0,
+    "explanation": "Blind pedestrians have ROW always.",
+    "image": "images/sign_yield.png"
+  }
+]

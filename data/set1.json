@@ -1,0 +1,1152 @@
+[
+  {
+    "question": "What is black ice and why is it dangerous?",
+    "options": [
+      "It does not exist",
+      "Something your friends at school use to change water color",
+      "You drive a four-wheel-drive car so you don\u2019t need to worry",
+      "A thick coat of highly transparent ice that blends into the road, making it hard to see"
+    ],
+    "answer": 3,
+    "explanation": "Correct Answer: A thick coat of highly transparent ice that blends into the road, making it hard to see"
+  },
+  {
+    "question": "What does a flashing red light on a traffic signal mean?",
+    "options": [
+      "Go as fast as you can",
+      "Keep going without stopping",
+      "Speed up and honk your horn",
+      "The same thing as a stop sign"
+    ],
+    "answer": 3,
+    "explanation": "Correct Answer: The same thing as a stop sign",
+    "image": "images/sign_stop.png"
+  },
+  {
+    "question": "What should you do when you see a steady yellow light at an intersection?",
+    "options": [
+      "Speed up",
+      "Turn around",
+      "Slow down and prepare to stop",
+      "Honk your horn"
+    ],
+    "answer": 2,
+    "explanation": "Correct Answer: Slow down and prepare to stop",
+    "image": "images/sign_stop.png"
+  },
+  {
+    "question": "What does this sign tell you about what's happening on the road?",
+    "options": [
+      "A rest stop up ahead",
+      "A picnic area or park nearby",
+      "Flagger ahead",
+      "A school crossing"
+    ],
+    "answer": 2,
+    "explanation": "Correct Answer: Flagger ahead",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "What does this sign show you might find on the road?",
+    "options": [
+      "A deer crossing",
+      "A picture of a silhouette of a deer",
+      "An arrow pointing to where deer may be crossing",
+      "The words \u201cdeer crossing\u201d"
+    ],
+    "answer": 0,
+    "explanation": "Correct Answer: A deer crossing",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "What does this sign on the road tell you might be coming up?",
+    "options": [
+      "Hospital or medical facility",
+      "Emergency services",
+      "Recreational area or park",
+      "Traffic signal ahead"
+    ],
+    "answer": 3,
+    "explanation": "Correct Answer: Traffic signal ahead",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "What should you do when you see an emergency vehicle with sirens and flashing lights coming toward you?",
+    "options": [
+      "Speed up",
+      "Keep driving",
+      "Close your eyes",
+      "Pull to the right and stop"
+    ],
+    "answer": 3,
+    "explanation": "Correct Answer: Pull to the right and stop",
+    "image": "images/sign_stop.png"
+  },
+  {
+    "question": "When is it okay to use your car's flashing hazard lights?",
+    "options": [
+      "When your vehicle is stopped or disabled on the highway/shoulder",
+      "At a drive-in movie",
+      "When parked at home",
+      "When you want to race"
+    ],
+    "answer": 0,
+    "explanation": "Correct Answer: When your vehicle is stopped or disabled on the highway/shoulder",
+    "image": "images/sign_stop.png"
+  },
+  {
+    "question": "What should you do with your headlights when it's raining?",
+    "options": [
+      "Use high beams",
+      "Turn off headlights",
+      "Use low beam headlights",
+      "Use fog lights"
+    ],
+    "answer": 2,
+    "explanation": "Correct Answer: Use low beam headlights",
+    "image": "images/traffic_light_red.png"
+  },
+  {
+    "question": "When should you listen to what a signal person says at a road construction site?",
+    "options": [
+      "Only on weekends",
+      "When in a hurry",
+      "At all times",
+      "Never"
+    ],
+    "answer": 2,
+    "explanation": "Correct Answer: At all times",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "What does this sign tell you about a school?",
+    "options": [
+      "A school",
+      "A church",
+      "Intersection",
+      "A library"
+    ],
+    "answer": 2,
+    "explanation": "Correct Answer: Intersection",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "What's the right thing to do when you see an emergency vehicle with flashing red or blue lights?",
+    "options": [
+      "Speed up",
+      "Continue driving",
+      "Pull over to the side and stop",
+      "Drive close to the emergency vehicle"
+    ],
+    "answer": 2,
+    "explanation": "Correct Answer: Pull over to the side and stop",
+    "image": "images/sign_stop.png"
+  },
+  {
+    "question": "What does this white sign with a picture convey?",
+    "options": [
+      "Pass traffic in the right lane",
+      "Immediately pull over",
+      "Slow down and move to the right lane",
+      "Stay in the right lane if driving slower than other traffic"
+    ],
+    "answer": 3,
+    "explanation": "Correct Answer: Stay in the right lane if driving slower than other traffic",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "In what order do traffic lights show colors from top to bottom?",
+    "options": [
+      "Blue, yellow, red",
+      "Red, yellow, green",
+      "Purple, green, orange",
+      "Pink, brown, gray"
+    ],
+    "answer": 1,
+    "explanation": "Correct Answer: Red, yellow, green",
+    "image": "images/traffic_light_red.png"
+  },
+  {
+    "question": "What does this road sign tell you about the speed limit?",
+    "options": [
+      "55 mph",
+      "45 mph",
+      "50 mph",
+      "65 mph"
+    ],
+    "answer": 0,
+    "explanation": "Correct Answer: 55 mph",
+    "image": "images/sign_speed_limit_55.png"
+  },
+  {
+    "question": "What can make a driver not pay attention to the road?",
+    "options": [
+      "Talking or texting on a phone",
+      "Looking at road signs",
+      "Talking to a friend",
+      "Eating a snack"
+    ],
+    "answer": 0,
+    "explanation": "Correct Answer: Talking or texting on a phone"
+  },
+  {
+    "question": "What does this sign tell you about the road?",
+    "options": [
+      "Pedestrian crossing",
+      "Always dry",
+      "Speed bump or uneven road",
+      "Slippery when wet"
+    ],
+    "answer": 3,
+    "explanation": "Correct Answer: Slippery when wet",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "What is parallel parking?",
+    "options": [
+      "Vehicle parked parallel to the curb and other vehicles",
+      "Vehicle parked perpendicular to the curb",
+      "Vehicle parked at 45\u00b0 angle to curb",
+      "Vehicle parked facing opposite traffic"
+    ],
+    "answer": 0,
+    "explanation": "Correct Answer: Vehicle parked parallel to the curb and other vehicles",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "What should you do when you want to turn right at the next intersection?",
+    "options": [
+      "Signal 100 ft before turning",
+      "Switch lanes quickly",
+      "Speed up and honk",
+      "Turn without signaling"
+    ],
+    "answer": 0,
+    "explanation": "Correct Answer: Signal 100 ft before turning",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "As an oncoming car with bright headlights approaches, where should you direct your gaze?",
+    "options": [
+      "Into the headlights",
+      "Road center line",
+      "Right edge of the road",
+      "Close your eyes briefly"
+    ],
+    "answer": 2,
+    "explanation": "Correct Answer: Right edge of the road",
+    "image": "images/traffic_light_red.png"
+  },
+  {
+    "question": "What does this sign tell you is coming up?",
+    "options": [
+      "Railroad crossing",
+      "Rest area",
+      "Right turns only",
+      "Roundabout"
+    ],
+    "answer": 0,
+    "explanation": "Correct Answer: Railroad crossing",
+    "image": "images/sign_railroad_crossing.png"
+  },
+  {
+    "question": "What does this road sign tell you about the road ahead?",
+    "options": [
+      "Road joins from the right",
+      "Slow down and look for ice cream",
+      "There\u2019s a park nearby",
+      "You can drive really fast"
+    ],
+    "answer": 0,
+    "explanation": "Correct Answer: Road joins from the right",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "When should you signal before turning?",
+    "options": [
+      "50 feet before turning",
+      "100 feet before turning",
+      "200 feet before turningAnswer: B"
+    ],
+    "answer": 1,
+    "explanation": "Correct Answer: 100 feet before turning",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "You should use your turn signals:",
+    "options": [
+      "when changing lanes or merging into traffic",
+      "when turning left or right",
+      "both of the above Answer: C"
+    ],
+    "answer": 2,
+    "explanation": "Correct Answer: both of the above Answer: C",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "You should turn on your hazard lights when:",
+    "options": [
+      "driving in heavy rain or fog",
+      "your car has broken down on the side of the road",
+      "you are double parkedAnswer: B"
+    ],
+    "answer": 1,
+    "explanation": "Correct Answer: your car has broken down on the side of the road",
+    "image": "images/traffic_light_red.png"
+  },
+  {
+    "question": "When should you turn off your turn signal?",
+    "options": [
+      "as soon as you have completed the turn or lane change",
+      "as soon as you begin the turn or lane change",
+      "before you begin the turn or lane changeAnswer: A"
+    ],
+    "answer": 0,
+    "explanation": "Correct Answer: as soon as you have completed the turn or lane change",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "What happens if you do not signal when required?",
+    "options": [
+      "you may get a ticket",
+      "you may cause an accident",
+      "all of the above Answer: C"
+    ],
+    "answer": 2,
+    "explanation": "Correct Answer: all of the above Answer: C",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "How should bicyclists signal a turn?",
+    "options": [
+      "using their vehicle's signal lights",
+      "using hand and arm positions",
+      "using their hornAnswer: B"
+    ],
+    "answer": 1,
+    "explanation": "Correct Answer: using hand and arm positions",
+    "image": "images/sign_bicycle.png"
+  },
+  {
+    "question": "What does this hand signal indicate (left arm extended straight out)?",
+    "options": [
+      "left turn",
+      "right turn",
+      "stopAnswer: A"
+    ],
+    "answer": 0,
+    "explanation": "Correct Answer: left turn",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "What does this hand signal indicate (left arm up at 90\u00b0)?",
+    "options": [
+      "left turn",
+      "right turn",
+      "stopAnswer: B"
+    ],
+    "answer": 1,
+    "explanation": "Correct Answer: right turn",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "What does this hand signal indicate (left arm down)?",
+    "options": [
+      "left turn",
+      "right turn",
+      "stop Answer: C"
+    ],
+    "answer": 2,
+    "explanation": "Correct Answer: stop Answer: C",
+    "image": "images/sign_stop.png"
+  },
+  {
+    "question": "You may use your horn on narrow mountain roads:",
+    "options": [
+      "to alert oncoming traffic where you cannot see at least 200 feet ahead",
+      "to let pedestrians know you're there",
+      "to signal to other drivers that you are in a hurryAnswer: A"
+    ],
+    "answer": 0,
+    "explanation": "Correct Answer: to alert oncoming traffic where you cannot see at least 200 feet ahead",
+    "image": "images/guide_signs.webp"
+  },
+  {
+    "question": "What should you do if another driver honks at you?",
+    "options": [
+      "ignore it and continue driving",
+      "honk back",
+      "make an obscene gestureAnswer: A If you want, I can combine both DMV practice sets (the driving rules and the signaling/horn set) into one master sheet with all questions, options, and answers so you can study them in one place. This makes memorization much faster. Do you want me to do that? Here\u2019s a clean summary of the new DMV practice questions you just shared\u2014only including ones that weren\u2019t already in your previous signaling/horn set. I\u2019ve kept the question, options, and correct answer format so it\u2019s easy to study:"
+    ],
+    "answer": 0,
+    "explanation": "Correct Answer: ignore it and continue driving"
+  },
+  {
+    "question": "A red and white triangular sign at an intersection means:",
+    "options": [
+      "Slow down if an emergency vehicle is nearby",
+      "Look both ways as you cross the intersection",
+      "Yield the right-of-way to cross traffic",
+      "Stop completely"
+    ],
+    "answer": 2,
+    "explanation": "A triangular red and white sign is a Yield sign. You must slow down and yield to traffic.",
+    "image": "images/sign_yield.png"
+  },
+  {
+    "question": "An orange and red sign of this shape (triangle with clipped corners) on a vehicle always means:",
+    "options": [
+      "The vehicle has the right-of-way",
+      "Slow-moving vehicle",
+      "Shoulder work ahead",
+      "Emergency vehicle"
+    ],
+    "answer": 1,
+    "explanation": "A slow-moving vehicle emblem is a reflective orange triangle.",
+    "image": "images/sign_slow_moving_vehicle.png"
+  },
+  {
+    "question": "A diamond-shaped sign is a:",
+    "options": [
+      "Road hazard sign",
+      "Interstate route site",
+      "School crossing sign",
+      "Speed limit sign"
+    ],
+    "answer": 0,
+    "explanation": "Diamond-shaped signs are warning signs that alert you to road hazards.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "A five-sided sign indicates:",
+    "options": [
+      "A railroad crossing",
+      "A school zone or school crossing",
+      "A no-passing zone",
+      "A stop sign"
+    ],
+    "answer": 1,
+    "explanation": "A pentagon (five-sided) sign indicates a school zone or school crossing.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "A white rectangular sign indicates:",
+    "options": [
+      "You must obey important rules",
+      "Warning of hazards",
+      "Directions to cities",
+      "Parks and recreation"
+    ],
+    "answer": 0,
+    "explanation": "White rectangular signs are regulatory signs (e.g., Speed Limit, No Turn on Red).",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "What does a pennant-shaped sign located on the left side of the road mean?",
+    "options": [
+      "School zone",
+      "No passing zone",
+      "Railroad crossing",
+      "Construction ahead"
+    ],
+    "answer": 1,
+    "explanation": "A pennant-shaped sign marks the beginning of a no-passing zone.",
+    "image": "images/sign_no_passing_zone.png"
+  },
+  {
+    "question": "A circular yellow sign with a black 'X' and two 'R's means:",
+    "options": [
+      "Road repair",
+      "Railroad crossing ahead",
+      "Rest area",
+      "Right turn only"
+    ],
+    "answer": 1,
+    "explanation": "This is a railroad crossing advance warning sign.",
+    "image": "images/sign_railroad_crossing.png"
+  },
+  {
+    "question": "When a traffic signal light is not working, you should:",
+    "options": [
+      "Stop and wait for a police officer",
+      "Treat it as a 4-way stop",
+      "Proceed with caution without stopping",
+      "Slow down"
+    ],
+    "answer": 1,
+    "explanation": "Treat a blacked-out traffic signal as a 4-way stop intersection.",
+    "image": "images/sign_stop.png"
+  },
+  {
+    "question": "A flashing yellow traffic signal at an intersection means:",
+    "options": [
+      "Stop and wait for the green light",
+      "Slow down and be alert",
+      "Yield to all traffic",
+      "Stop and proceed when safe"
+    ],
+    "answer": 1,
+    "explanation": "A flashing yellow light means 'Proceed with caution'. You do not need to stop.",
+    "image": "images/sign_stop.png"
+  },
+  {
+    "question": "A red arrow pointing to the right on a traffic light means you may:",
+    "options": [
+      "Turn right after stopping",
+      "Not turn right until the light turns green",
+      "Turn right without stopping",
+      "Turn right if the way is clear"
+    ],
+    "answer": 1,
+    "explanation": "A red arrow means 'STOP'. You cannot turn against a red arrow.",
+    "image": "images/sign_stop.png"
+  },
+  {
+    "question": "Which of these signs is used to show the end of a divided highway?",
+    "options": [
+      "Yield",
+      "Do Not Enter",
+      "Divided Highway Ends",
+      "Keep Right"
+    ],
+    "answer": 2,
+    "explanation": "The 'Divided Highway Ends' sign warns that the road will become two-way traffic.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "If you see orange construction signs and cones on a freeway, you must:",
+    "options": [
+      "Slow down because the lane ends ahead",
+      "Be prepared for workers and equipment ahead",
+      "Change lanes and maintain speed",
+      "Speed up to get past quickly"
+    ],
+    "answer": 1,
+    "explanation": "Orange signs indicate a work zone. Expect workers and equipment.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "When you see a 'Road Closed Ahead' sign, you should:",
+    "options": [
+      "Look for a detour or another route",
+      "Drive around the sign",
+      "Wait for the road to open",
+      "Drive on the shoulder"
+    ],
+    "answer": 0,
+    "explanation": "Do not drive past a road closed sign. Find another route.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "A sign with a truck going down a hill means:",
+    "options": [
+      "Truck stop ahead",
+      "Steep hill ahead",
+      "No trucks allowed",
+      "Trucks have right of way"
+    ],
+    "answer": 1,
+    "explanation": "This warning sign indicates a steep downgrade ahead.",
+    "image": "images/sign_hill.png"
+  },
+  {
+    "question": "A sign showing a person with a shovel means:",
+    "options": [
+      "Garden center",
+      "Workers ahead",
+      "Playground",
+      "Hiking trail"
+    ],
+    "answer": 1,
+    "explanation": "This symbol indicates road work or workers ahead.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "A yellow sign with a cross (+) indicates:",
+    "options": [
+      "Hospital",
+      "Intersection ahead",
+      "Railroad",
+      "First aid"
+    ],
+    "answer": 1,
+    "explanation": "A cross symbol on a yellow diamond warns of an intersection ahead.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "A yellow sign with a 'T' shape indicates:",
+    "options": [
+      "T-intersection ahead",
+      "Taxi stand",
+      "Truck route",
+      "Telephone"
+    ],
+    "answer": 0,
+    "explanation": "This warns that the road ends at a cross street (T-intersection).",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "What does a sign with a curved arrow indicate?",
+    "options": [
+      "The road curves ahead",
+      "U-turn only",
+      "Keep right",
+      "Detour"
+    ],
+    "answer": 0,
+    "explanation": "A curved arrow warns of a curve in the road. Slow down.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "A sign with two arrows pointing in opposite directions with a divider at the bottom means:",
+    "options": [
+      "Divided highway begins",
+      "Divided highway ends",
+      "Two-way traffic",
+      "Merge"
+    ],
+    "answer": 0,
+    "explanation": "This sign indicates the start of a divided highway.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "A sign with two arrows pointing in opposite directions with a divider at the top means:",
+    "options": [
+      "Divided highway begins",
+      "Divided highway ends",
+      "Two-way traffic",
+      "Merge"
+    ],
+    "answer": 1,
+    "explanation": "This sign indicates the end of a divided highway.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "A sign with a bicycle means:",
+    "options": [
+      "Bicycle shop",
+      "Bicycle crossing or bike route",
+      "No bicycles",
+      "Motorcycles only"
+    ],
+    "answer": 1,
+    "explanation": "This sign warns that bicycles may be on or crossing the road.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "A sign with a walking person symbol means:",
+    "options": [
+      "School zone",
+      "Pedestrian crossing",
+      "Playground",
+      "Hiking"
+    ],
+    "answer": 1,
+    "explanation": "This indicates a pedestrian crossing.",
+    "image": "images/sign_pedestrian_crossing.png"
+  },
+  {
+    "question": "Near a railroad crossing where you cannot see down the tracks for 400 feet, the speed limit is:",
+    "options": [
+      "15 mph",
+      "25 mph",
+      "30 mph",
+      "35 mph"
+    ],
+    "answer": 0,
+    "explanation": "The speed limit is 15 mph within 100 feet of a railroad crossing if visibility is limited.",
+    "image": "images/sign_railroad_crossing.png"
+  },
+  {
+    "question": "You may make a left turn on a red light only from:",
+    "options": [
+      "A one-way street onto a two-way street",
+      "A one-way street onto a one-way street",
+      "A two-way street onto a one-way street",
+      "A two-way street onto a two-way street"
+    ],
+    "answer": 1,
+    "explanation": "Left turn on red is ONLY allowed from a one-way street onto another one-way street.",
+    "image": "images/traffic_light_red.png"
+  },
+  {
+    "question": "At an intersection without Stop or Yield signs, you must yield to:",
+    "options": [
+      "Vehicles on your left",
+      "Vehicles on your right",
+      "The vehicle that arrives last",
+      "Nobody"
+    ],
+    "answer": 1,
+    "explanation": "At uncontrolled intersections, yield to the vehicle on your right.",
+    "image": "images/sign_yield.png"
+  },
+  {
+    "question": "At a T-intersection without signs, who has the right of way?",
+    "options": [
+      "Traffic on the through road",
+      "Traffic on the terminating road",
+      "The vehicle on the right",
+      "The faster vehicle"
+    ],
+    "answer": 0,
+    "explanation": "Traffic on the through road has the right of way.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "You must signal at least ___ feet before making a turn.",
+    "options": [
+      "50",
+      "75",
+      "100",
+      "200"
+    ],
+    "answer": 2,
+    "explanation": "Signal 100 feet before turning.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "Passing another vehicle on the right is permitted if:",
+    "options": [
+      "You are on a two-lane road",
+      "The other vehicle is turning left and there is room",
+      "You drive off the pavement",
+      "You are in a hurry"
+    ],
+    "answer": 1,
+    "explanation": "You may pass on the right if the vehicle is turning left and there is paved room to pass."
+  },
+  {
+    "question": "When a school bus has flashing red lights and the stop arm extended, you must:",
+    "options": [
+      "Stop only if you are behind it",
+      "Stop from either direction until lights stop",
+      "Slow down and pass",
+      "Honk"
+    ],
+    "answer": 1,
+    "explanation": "You must stop from either direction unless the road is divided by a median.",
+    "image": "images/sign_stop.png"
+  },
+  {
+    "question": "When driving in fog, you should use:",
+    "options": [
+      "High beams",
+      "Low beams",
+      "Parking lights only",
+      "No lights"
+    ],
+    "answer": 1,
+    "explanation": "Use low beams in fog. High beams reflect back and reduce visibility."
+  },
+  {
+    "question": "When driving at night, you should:",
+    "options": [
+      "Drive faster to get home",
+      "Use high beams always",
+      "Drive slowly enough to stop within the range of your headlights",
+      "Look at oncoming lights"
+    ],
+    "answer": 2,
+    "explanation": "Don't 'overdrive' your headlights. Be able to stop within the distance you can see.",
+    "image": "images/sign_stop.png"
+  },
+  {
+    "question": "If an oncoming vehicle has their high beams on, you should look:",
+    "options": [
+      "At the lights",
+      "Toward the right edge of your lane",
+      "At the center line",
+      "Close your eyes"
+    ],
+    "answer": 1,
+    "explanation": "Look toward the right edge to avoid being blinded."
+  },
+  {
+    "question": "Pedestrians using guide dogs or white canes must:",
+    "options": [
+      "Be given the right of way at all times",
+      "Wait for the light",
+      "Use crosswalks only",
+      "Yield to cars"
+    ],
+    "answer": 0,
+    "explanation": "Blind pedestrians have the right of way at all times."
+  },
+  {
+    "question": "Which of these is a legal U-turn?",
+    "options": [
+      "On a highway where there is a paved opening for a turn",
+      "In front of a fire station",
+      "At an intersection with a 'No U-Turn' sign",
+      "On a one-way street"
+    ],
+    "answer": 0,
+    "explanation": "U-turns are legal across a double yellow line if there is an opening/turn lane.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "When can you drive using only your parking lights?",
+    "options": [
+      "30 minutes after sunset",
+      "In fog",
+      "Under no circumstances",
+      "On a sunny day"
+    ],
+    "answer": 2,
+    "explanation": "Never drive with only parking lights.",
+    "image": "images/traffic_light_red.png"
+  },
+  {
+    "question": "Cargo extending more than 4 feet from your rear bumper must be marked with:",
+    "options": [
+      "A red flag or red lights",
+      "A white flag",
+      "A yellow sign",
+      "Nothing"
+    ],
+    "answer": 0,
+    "explanation": "Must be marked with a red flag (day) or red lights (night).",
+    "image": "images/traffic_light_red.png"
+  },
+  {
+    "question": "You must not follow within ___ feet of any emergency vehicle with a siren or flashing lights.",
+    "options": [
+      "100",
+      "200",
+      "300",
+      "500"
+    ],
+    "answer": 2,
+    "explanation": "Do not follow within 300 feet of an emergency vehicle.",
+    "image": "images/traffic_light_red.png"
+  },
+  {
+    "question": "If you approach a school bus with flashing yellow lights, you should:",
+    "options": [
+      "Stop immediately",
+      "Speed up",
+      "Slow down and prepare to stop",
+      "Pass carefully"
+    ],
+    "answer": 2,
+    "explanation": "Flashing yellow means the red lights will come on soon. Prepare to stop.",
+    "image": "images/sign_stop.png"
+  },
+  {
+    "question": "If you are stopped by a peace officer, you should:",
+    "options": [
+      "Get out of the car",
+      "Turn on your right turn signal and pull over",
+      "Argue",
+      "Drive away"
+    ],
+    "answer": 1,
+    "explanation": "Acknowledge the officer by turning on your signal and pulling over safely.",
+    "image": "images/sign_stop.png"
+  },
+  {
+    "question": "In a roundabout, you should drive in:",
+    "options": [
+      "A clockwise direction",
+      "A counter-clockwise direction",
+      "Any direction",
+      "A straight line"
+    ],
+    "answer": 1,
+    "explanation": "Traffic in a roundabout moves counter-clockwise."
+  },
+  {
+    "question": "You should not make a U-turn:",
+    "options": [
+      "In a residential district",
+      "At an intersection with a green light",
+      "In front of a fire station",
+      "On a two-way street"
+    ],
+    "answer": 2,
+    "explanation": "Never make a U-turn in front of a fire station."
+  },
+  {
+    "question": "When you see a 'Yield' sign, you must:",
+    "options": [
+      "Stop completely always",
+      "Slow down and stop if necessary",
+      "Speed up",
+      "Ignore it"
+    ],
+    "answer": 1,
+    "explanation": "Slow down and be ready to stop for other traffic.",
+    "image": "images/sign_yield.png"
+  },
+  {
+    "question": "A 'No U-Turn' sign means:",
+    "options": [
+      "You cannot make a U-turn",
+      "You can make a U-turn if safe",
+      "U-turns are allowed for trucks",
+      "U-turns are allowed at night"
+    ],
+    "answer": 0,
+    "explanation": "U-turns are prohibited.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "If your headlights go out:",
+    "options": [
+      "Try the dimmer switch",
+      "Pull off the road",
+      "Turn on parking lights/hazards",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "Try switches, use hazards/parking lights, and pull over safely.",
+    "image": "images/traffic_light_red.png"
+  },
+  {
+    "question": "When driving in a dust storm:",
+    "options": [
+      "Drive slowly with lights on",
+      "Pull off the road, turn off lights, and wait",
+      "Speed up",
+      "Use high beams"
+    ],
+    "answer": 1,
+    "explanation": "Pull completely off the road and turn OFF lights so others don't follow you.",
+    "image": "images/traffic_light_red.png"
+  },
+  {
+    "question": "You should not use your horn:",
+    "options": [
+      "To alert a driver who might hit you",
+      "To greet a friend",
+      "On narrow mountain roads",
+      "When avoiding an accident"
+    ],
+    "answer": 1,
+    "explanation": "Do not use your horn to greet friends or out of anger.",
+    "image": "images/guide_signs.webp"
+  },
+  {
+    "question": "On a green arrow, you must:",
+    "options": [
+      "Yield to any vehicle, bicycle, or pedestrian in the intersection",
+      "Stop and wait",
+      "Turn only if clear",
+      "Go immediately"
+    ],
+    "answer": 0,
+    "explanation": "Green arrow gives you ROW, but you must still yield to those already in the intersection.",
+    "image": "images/sign_yield.png"
+  },
+  {
+    "question": "You want to make a right turn at an upcoming intersection. You should slow down and:",
+    "options": [
+      "Signal for 100 feet before turning",
+      "Move toward the left side of your lane",
+      "Avoid driving in the bicycle lane",
+      "Signal for 5 feet"
+    ],
+    "answer": 0,
+    "explanation": "Signal 100 feet before the turn.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "Light Rail Vehicles (LRVs) are:",
+    "options": [
+      "Slow and easy to stop",
+      "Quiet and accelerate quickly",
+      "Allowed to run red lights",
+      "Always underground"
+    ],
+    "answer": 1,
+    "explanation": "LRVs are quiet and accelerate quickly. Never race them.",
+    "image": "images/sign_light_rail.png"
+  },
+  {
+    "question": "Safety zones are set aside for:",
+    "options": [
+      "Bicycles",
+      "Pedestrians waiting for cars or light rail",
+      "Emergency vehicles",
+      "Parking"
+    ],
+    "answer": 1,
+    "explanation": "Safety zones are for pedestrians. Do not drive through them."
+  },
+  {
+    "question": "A diamond-shaped sign on a truck means:",
+    "options": [
+      "The truck is carrying hazardous materials",
+      "The truck is wide",
+      "The truck is slow",
+      "The truck is empty"
+    ],
+    "answer": 0,
+    "explanation": "Diamond placards indicate hazardous load.",
+    "image": "images/sign_hill.png"
+  },
+  {
+    "question": "At an intersection with a stop sign, you should stop and:",
+    "options": [
+      "Look left first, then right, then left again",
+      "Look right first",
+      "Look straight ahead",
+      "Go immediately"
+    ],
+    "answer": 0,
+    "explanation": "Look Left-Right-Left before proceeding.",
+    "image": "images/sign_stop.png"
+  },
+  {
+    "question": "When exiting a freeway, you should signal for at least ___ seconds.",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 3,
+    "explanation": "Signal for approx 5 seconds before exiting.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "When driving at night on a dimly lit street, you should:",
+    "options": [
+      "Drive slowly enough to stop within the area lighted by your headlights",
+      "Turn on your high beams",
+      "Keep your instrument panel bright",
+      "Wear sunglasses"
+    ],
+    "answer": 0,
+    "explanation": "Don't overdrive your headlights.",
+    "image": "images/traffic_light_red.png"
+  },
+  {
+    "question": "If you drive into fog, you should turn on your:",
+    "options": [
+      "High beams",
+      "Low beams",
+      "Hazards",
+      "Interior lights"
+    ],
+    "answer": 1,
+    "explanation": "Use low beams."
+  },
+  {
+    "question": "When driving in the rain, you must:",
+    "options": [
+      "Use your headlights",
+      "Use your parking lights",
+      "Drive 10 mph",
+      "Stop"
+    ],
+    "answer": 0,
+    "explanation": "Wipers On = Lights On.",
+    "image": "images/traffic_light_red.png"
+  },
+  {
+    "question": "If you are being passed, you should:",
+    "options": [
+      "Speed up",
+      "Maintain your speed or slow down slightly",
+      "Swerve",
+      "Brake hard"
+    ],
+    "answer": 1,
+    "explanation": "Let the other driver pass safely."
+  },
+  {
+    "question": "When sharing the road with a light rail vehicle:",
+    "options": [
+      "Never turn in front of an approaching LRV",
+      "You can beat it",
+      "It will stop for you",
+      "Drive on the tracks"
+    ],
+    "answer": 0,
+    "explanation": "Never turn in front of an LRV.",
+    "image": "images/sign_light_rail.png"
+  },
+  {
+    "question": "Which of these is true about organ donation?",
+    "options": [
+      "You can sign up when you apply for your license",
+      "It is mandatory",
+      "You must be 21",
+      "It costs money"
+    ],
+    "answer": 0,
+    "explanation": "You can register to be a donor on your application."
+  },
+  {
+    "question": "When you change your name, you must notify the DMV:",
+    "options": [
+      "In person with documents",
+      "By phone",
+      "Online",
+      "Never"
+    ],
+    "answer": 0,
+    "explanation": "Must notify DMV (usually requires new license application)."
+  },
+  {
+    "question": "When driving in city traffic, you should look ahead:",
+    "options": [
+      "One block",
+      "One car length",
+      "At the traffic light only",
+      "At the sidewalk"
+    ],
+    "answer": 0,
+    "explanation": "Look at least one block ahead in the city."
+  },
+  {
+    "question": "When entering a tunnel, you should:",
+    "options": [
+      "Turn on your lights",
+      "Honk",
+      "Speed up",
+      "Close your eyes"
+    ],
+    "answer": 0,
+    "explanation": "Turn on lights in tunnels.",
+    "image": "images/traffic_light_red.png"
+  },
+  {
+    "question": "The hand signal for 'Stop' or 'Slow Down' is:",
+    "options": [
+      "Arm extended downward",
+      "Arm extended upward",
+      "Arm straight out",
+      "Arm waving"
+    ],
+    "answer": 0,
+    "explanation": "Arm down = Stop.",
+    "image": "images/sign_stop.png"
+  },
+  {
+    "question": "The hand signal for 'Right Turn' is:",
+    "options": [
+      "Arm extended upward",
+      "Arm extended downward",
+      "Arm straight out",
+      "Arm waving"
+    ],
+    "answer": 0,
+    "explanation": "Arm up = Right Turn.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "The hand signal for 'Left Turn' is:",
+    "options": [
+      "Arm straight out",
+      "Arm extended upward",
+      "Arm extended downward",
+      "Arm waving"
+    ],
+    "answer": 0,
+    "explanation": "Arm straight out = Left Turn.",
+    "image": "images/regulatory_signs.webp"
+  }
+]

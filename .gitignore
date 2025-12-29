@@ -1,0 +1,14 @@
+# System Files
+.DS_Store
+Thumbs.db
+
+# Python
+venv/
+*.pyc
+__pycache__/
+
+# Production bundle (already pushed as files)
+dmv-quiz-production.zip
+
+# Environment
+.env

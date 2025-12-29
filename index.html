@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DMV Readiness Pro | 2026 California Permit Practice Highlights</title>
+    <meta name="description"
+        content="Master the 2026 California DMV Permit Test with our high-fidelity visual simulator. Includes 300+ practice questions, video courses, and high-res study guides.">
+    <meta name="keywords"
+        content="DMV practice test, California permit test 2026, DMV video course, traffic signs quiz">
+
+    <!-- Open Graph / social media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="DMV Readiness Pro | 2026 California Permit Practice">
+    <meta property="og:description" content="Professional-grade simulation tool for the CA DMV exam.">
+    <meta property="og:image" content="images/regulatory_signs.webp">
+
+    <!-- Modern Typography Header -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Premium Design System -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="app-container">
+        <!-- Sticky Premium Header -->
+        <header class="main-header">
+            <a href="#" class="logo-area" onclick="app.showView('home')" style="text-decoration: none;">
+                <div class="logo-icon"><i class="ri-steering-2-fill"></i></div>
+                <span class="logo-text">DMV Readiness <span style="color:var(--primary);">Pro</span></span>
+            </a>
+            <div class="nav-actions">
+                <a href="https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/" target="_blank"
+                    class="icon-btn" title="CA Handbook">
+                    <i class="ri-book-open-line"></i>
+                </a>
+                <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme">
+                    <i class="ri-moon-line"></i>
+                </button>
+            </div>
+        </header>
+
+        <!-- Home View (High Fidelity) -->
+        <main id="home-view" class="view active">
+            <div class="hero-section">
+                <div class="hero-tag">UPDATED FOR 2026</div>
+                <h2 class="hero-title">Master the <span class="gradient-text">Permit Test</span></h2>
+                <p class="hero-subtitle">The official-grade practice tool for the California DMV exam. Experience
+                    high-fidelity visual simulations across all categories.</p>
+            </div>
+
+            <div class="set-grid">
+                <!-- Video Course First -->
+                <div class="glass-panel set-card" id="video-btn">
+                    <div class="card-icon"><i class="ri-play-circle-line"></i></div>
+                    <div class="card-content">
+                        <h3>Video Course</h3>
+                        <p>Watch the complete driver handbook series for visual learning.</p>
+                        <div class="card-footer">
+                            <span class="mono">PLAYLIST</span>
+                            <span class="start-link">WATCH <i class="ri-play-line"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Training Categories -->
+                <div class="glass-panel set-card" data-set="set1">
+                    <div class="card-icon"><i class="ri-traffic-light-fill"></i></div>
+                    <div class="card-content">
+                        <h3>Signs & Signals</h3>
+                        <p>Detailed practice for traffic signs, lighting signals, and pavement symbols.</p>
+                        <div class="card-footer">
+                            <span class="mono">98 QUESTIONS</span>
+                            <span class="start-link">PRACTICE <i class="ri-arrow-right-line"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-panel set-card" data-set="set2">
+                    <div class="card-icon"><i class="ri-road-map-line"></i></div>
+                    <div class="card-content">
+                        <h3>Rules of the Road</h3>
+                        <p>Right-of-way laws, lane regulations, and essential speed limit information.</p>
+                        <div class="card-footer">
+                            <span class="mono">50 QUESTIONS</span>
+                            <span class="start-link">PRACTICE <i class="ri-arrow-right-line"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-panel set-card" data-set="set3">
+                    <div class="card-icon"><i class="ri-steering-2-line"></i></div>
+                    <div class="card-content">
+                        <h3>Safe Driving</h3>
+                        <p>Handling hazard management, defensive techniques, and extreme road conditions.</p>
+                        <div class="card-footer">
+                            <span class="mono">50 QUESTIONS</span>
+                            <span class="start-link">PRACTICE <i class="ri-arrow-right-line"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-panel set-card" data-set="set4">
+                    <div class="card-icon"><i class="ri-scales-3-line"></i></div>
+                    <div class="card-content">
+                        <h3>Laws & Regs</h3>
+                        <p>Alcohol restriction laws, registration, and minors' administrative requirements.</p>
+                        <div class="card-footer">
+                            <span class="mono">67 QUESTIONS</span>
+                            <span class="start-link">PRACTICE <i class="ri-arrow-right-line"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Study Module -->
+                <div class="glass-panel set-card" id="study-btn">
+                    <div class="card-icon"><i class="ri-book-read-line"></i></div>
+                    <div class="card-content">
+                        <h3>Study Library</h3>
+                        <p>High-resolution visual reference charts and permit cheat sheets for quick mastery.</p>
+                        <div class="card-footer">
+                            <span class="mono">5 CHARTS</span>
+                            <span class="start-link">VIEW <i class="ri-eye-line"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Sub-selection View -->
+        <main id="sub-selection-view" class="view">
+            <div class="hero-section" style="text-align: left; padding: 4rem 0 2rem;">
+                <button class="back-link" id="back-to-home">
+                    <i class="ri-arrow-left-line"></i> RETURN
+                </button>
+                <div style="margin-top: 3rem;">
+                    <h2 class="hero-title" id="sub-category-title" style="font-size: 3rem; margin-bottom: 0.5rem;">
+                        Select Level</h2>
+                    <p class="hero-subtitle" style="margin: 0; text-align: left;">Segmented parts for better retention.
+                    </p>
+                </div>
+            </div>
+            <div class="parts-container" id="parts-grid">
+                <!-- Data injection point -->
+            </div>
+        </main>
+
+        <!-- Quiz Interaction View -->
+        <main id="quiz-view" class="view">
+            <div class="quiz-container">
+                <div class="quiz-header glass-panel">
+                    <button id="home-btn-quiz" class="icon-btn" title="Exit Practice">
+                        <i class="ri-close-line"></i>
+                    </button>
+                    <div class="progress-wrapper">
+                        <div class="progress-text">
+                            <span class="mono">QUESTION <span id="current-q">1</span> OF <span
+                                    id="total-q">50</span></span>
+                            <div id="score-tracker" class="mono" style="color:var(--primary)">SCORE: 0</div>
+                        </div>
+                        <div class="progress-track">
+                            <div id="progress-bar" class="progress-fill"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-panel question-card">
+                    <div id="image-container" class="image-container">
+                        <img id="question-image" src="" alt="Traffic Scenario">
+                    </div>
+                    <h2 id="question-text">Initializing module...</h2>
+                    <div id="options-grid" class="options-grid"></div>
+
+                    <div id="explanation-box" class="explanation-box">
+                        <!-- Technical feedback injected here -->
+                    </div>
+
+                    <div class="quiz-footer">
+                        <button id="prev-btn" class="quiz-btn" disabled>
+                            <i class="ri-arrow-left-line"></i> PREVIOUS
+                        </button>
+                        <button id="next-btn" class="quiz-btn primary" disabled>
+                            NEXT QUESTION <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Performance Summary View -->
+        <main id="results-view" class="view">
+            <div class="quiz-container" style="text-align: center;">
+                <div class="glass-panel" style="padding: 6rem 2rem;">
+                    <div class="results-header">
+                        <h2 class="hero-title" style="font-size: 4rem;">Practice Summary</h2>
+                        <p class="hero-subtitle">Technical performance breakdown for your session.</p>
+                    </div>
+
+                    <div class="accuracy-circle">
+                        <span id="final-percent">0%</span>
+                        <p class="mono" style="font-size: 0.75rem; letter-spacing: 2px;">ACCURACY</p>
+                    </div>
+
+                    <div style="display: flex; justify-content: center; gap: 5rem; margin-bottom: 5rem;">
+                        <div>
+                            <h4 id="total-correct" style="font-size: 3.5rem; color: var(--correct); font-weight: 900;">0
+                            </h4>
+                            <p class="mono">SUCCESSFUL</p>
+                        </div>
+                        <div>
+                            <h4 id="total-wrong" style="font-size: 3.5rem; color: var(--wrong); font-weight: 900;">0
+                            </h4>
+                            <p class="mono">REVISION NEEDED</p>
+                        </div>
+                    </div>
+
+                    <div id="review-container" class="hidden"
+                        style="text-align: left; border-top: 1px solid var(--border); padding-top: 4rem;">
+                        <h3 style="margin-bottom: 2rem; font-size: 1.75rem; font-weight: 800;">Revision Checklist</h3>
+                        <div id="review-list" style="display: grid; gap: 1rem;"></div>
+                    </div>
+
+                    <div class="quiz-footer" style="justify-content: center; border-top: none;">
+                        <button id="retry-btn" class="quiz-btn primary">RESTART SESSION</button>
+                        <button id="home-btn-results" class="quiz-btn">BACK TO DASHBOARD</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Educational Library View -->
+        <main id="study-view" class="view">
+            <div class="hero-section" style="text-align: left; padding: 4rem 0 2rem;">
+                <button id="back-home-study" class="back-link">
+                    <i class="ri-arrow-left-line"></i> RETURN
+                </button>
+                <div style="margin-top: 3rem;">
+                    <h2 class="hero-title">Study <span class="gradient-text">Library</span></h2>
+                    <p class="hero-subtitle" style="text-align: left;">High-res visual guides for rapid memorization.
+                    </p>
+                </div>
+            </div>
+            <div class="study-grid">
+                <div class="glass-panel study-item" onclick="app.openLightbox('images/regulatory_signs.webp')">
+                    <img src="images/regulatory_signs.webp" alt="Regulatory Signs" class="study-thumb">
+                    <div style="padding: 1rem; text-align: center;">
+                        <span class="mono">REGULATORY SIGNS</span>
+                    </div>
+                </div>
+                <div class="glass-panel study-item" onclick="app.openLightbox('images/warning_signs.webp')">
+                    <img src="images/warning_signs.webp" alt="Warning Signs" class="study-thumb">
+                    <div style="padding: 1rem; text-align: center;">
+                        <span class="mono">WARNING SIGNS</span>
+                    </div>
+                </div>
+                <div class="glass-panel study-item" onclick="app.openLightbox('images/guide_signs.webp')">
+                    <img src="images/guide_signs.webp" alt="Guide & Services" class="study-thumb">
+                    <div style="padding: 1rem; text-align: center;">
+                        <span class="mono">GUIDE & SERVICES</span>
+                    </div>
+                </div>
+                <div class="glass-panel study-item" onclick="app.openLightbox('images/work_zone_signs.webp')">
+                    <img src="images/work_zone_signs.webp" alt="Work Zone Signs" class="study-thumb">
+                    <div style="padding: 1rem; text-align: center;">
+                        <span class="mono">WORK ZONE SIGNS</span>
+                    </div>
+                </div>
+                <div class="glass-panel study-item" onclick="app.openLightbox('images/sign_shapes.webp')">
+                    <img src="images/sign_shapes.webp" alt="Sign Shapes & Colors" class="study-thumb">
+                    <div style="padding: 1rem; text-align: center;">
+                        <span class="mono">SHAPES & COLORS</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Video Course View -->
+        <main id="video-view" class="view">
+            <div class="hero-section" style="text-align: left; padding: 4rem 0 2rem;">
+                <button id="back-home-video" class="back-link">
+                    <i class="ri-arrow-left-line"></i> RETURN
+                </button>
+                <div style="margin-top: 3rem;">
+                    <h2 class="hero-title">Video <span class="gradient-text">Course</span></h2>
+                    <p class="hero-subtitle" style="text-align: left;">Comprehensive visual guide to the California
+                        Driver Handbook.</p>
+                </div>
+            </div>
+
+            <!-- Video Player Wrapper (Hidden Default) -->
+            <div class="glass-panel video-container-wrapper" style="display: none; margin-bottom: 2rem;"></div>
+
+            <!-- Video Grid Container -->
+            <div class="video-grid" id="video-grid"
+                style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; padding: 0 1rem;">
+                <!-- Video Cards Injected Here -->
+            </div>
+        </main>
+
+        <!-- Global Premium Footer -->
+        <footer class="main-footer">
+            <div class="footer-background-visual"></div>
+            <div class="app-container">
+                <div class="footer-grid">
+                    <!-- Brand Section -->
+                    <div class="footer-brand">
+                        <a href="#" class="logo-area" onclick="app.showView('home')"
+                            style="margin-bottom: 1.5rem; text-decoration: none;">
+                            <div class="logo-icon"><i class="ri-steering-2-fill"></i></div>
+                            <span class="logo-text">DMV Readiness <span style="color:var(--primary);">Pro</span></span>
+                        </a>
+                        <p class="footer-description">
+                            The definitive simulation platform for California road readiness. Engineered for the 2026
+                            DMV
+                            standards with high-fidelity visual aids and professional-grade courseware.
+                        </p>
+                        <div class="social-links">
+                            <a href="#" class="social-btn"><i class="ri-twitter-x-fill"></i></a>
+                            <a href="https://github.com/Angellito10" target="_blank" class="social-btn"><i
+                                    class="ri-github-fill"></i></a>
+                            <a href="#" class="social-btn"><i class="ri-linkedin-box-fill"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Platform Links -->
+                    <div class="footer-nav">
+                        <h4>Platform</h4>
+                        <ul>
+                            <li><a href="#" onclick="app.showView('home')">Exam Center</a></li>
+                            <li><a href="#" onclick="app.showView('study')">Visual Library</a></li>
+                            <li><a href="#" onclick="app.showView('video'); app.renderVideoGrid();">Video Course</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Resources -->
+                    <div class="footer-nav">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/"
+                                    target="_blank">Official Handbook</a></li>
+                            <li><a href="https://www.dmv.ca.gov/portal/make-an-appointment/" target="_blank">Book DMV
+                                    Appointment</a></li>
+                            <li><a href="#">Privacy Protocol</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Newsletter -->
+                    <div class="footer-newsletter">
+                        <h4>Stay Updated</h4>
+                        <p>Get notified when the 2026 handbook highlights are updated.</p>
+                        <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Subscribed!')">
+                            <input type="email" placeholder="Enter your email" required>
+                            <button type="submit"><i class="ri-arrow-right-line"></i></button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <div class="footer-legal">
+                        <span>Built with <i class="ri-heart-fill" style="color:var(--accent);"></i> for a Safer Road.
+                            &copy; 2026</span>
+                        <div class="legal-links">
+                            <a href="#">Privacy</a>
+                            <a href="#">Terms</a>
+                        </div>
+                    </div>
+                    <div class="footer-status">
+                        <span class="status-dot"></span> System Live: 2026 Ready
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Image Lightbox Overlay -->
+    <div id="lightbox" class="lightbox" onclick="app.closeLightbox()">
+        <span class="close-lightbox" onclick="app.closeLightbox()">&times;</span>
+        <img id="lightbox-img" src="" class="lightbox-img">
+    </div>
+
+    <script src="js/quiz-data.js?v=2026.21"></script>
+    <script src="js/video-data.js?v=2026.21"></script>
+    <script src="js/main.js?v=2026.21"></script>
+</body>
+
+</html>

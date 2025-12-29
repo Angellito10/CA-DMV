@@ -1,0 +1,748 @@
+[
+  {
+    "question": "What should you do if you're driving really slowly and causing a traffic jam behind you?",
+    "options": [
+      "Close your eyes and keep driving",
+      "Pull off the right side of the road and let traffic pass",
+      "Pull off the left side of the road",
+      "Speed up and race with other cars"
+    ],
+    "answer": 1,
+    "explanation": "Correct Answer: Pull off the right side of the road and let traffic pass"
+  },
+  {
+    "question": "When should you leave more space between your car and the one in front?",
+    "options": [
+      "When you want to race",
+      "When you're in a hurry",
+      "When driving with a friend",
+      "Driving behind a large vehicle that blocks your vision"
+    ],
+    "answer": 3,
+    "explanation": "Correct Answer: Driving behind a large vehicle that blocks your vision"
+  },
+  {
+    "question": "When is it okay for drivers to drive across or park on a median?",
+    "options": [
+      "Whenever they want",
+      "Only on weekends",
+      "When they want to have a picnic",
+      "They should never drive into a median"
+    ],
+    "answer": 3,
+    "explanation": "Correct Answer: They should never drive into a median"
+  },
+  {
+    "question": "Under what circumstances are you permitted to use High Occupancy Vehicle lanes?",
+    "options": [
+      "When you have 2+ passengers",
+      "When driving a public transportation vehicle",
+      "When driving an electric car",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "Correct Answer: All of the above"
+  },
+  {
+    "question": "You\u2019re driving in the left lane and cars are passing you on the right. What should you do if the driver behind you wants to go faster?",
+    "options": [
+      "Stop",
+      "Close your eyes",
+      "Move into the right lane when safe",
+      "Speed up"
+    ],
+    "answer": 2,
+    "explanation": "Correct Answer: Move into the right lane when safe"
+  },
+  {
+    "question": "When is passing not allowed?",
+    "options": [
+      "On straight roads",
+      "In parking lots",
+      "At intersections",
+      "In your driveway"
+    ],
+    "answer": 2,
+    "explanation": "Correct Answer: At intersections"
+  },
+  {
+    "question": "When should you listen to a school crossing guard?",
+    "options": [
+      "Only on weekends",
+      "When in a hurry",
+      "Never",
+      "At all times"
+    ],
+    "answer": 3,
+    "explanation": "Correct Answer: At all times"
+  },
+  {
+    "question": "The speed limit in a residential district is ____ unless posted otherwise.",
+    "options": [
+      "15 mph",
+      "25 mph",
+      "30 mph",
+      "35 mph"
+    ],
+    "answer": 1,
+    "explanation": "The speed limit in business or residential districts is 25 mph unless posted otherwise."
+  },
+  {
+    "question": "The speed limit for a blind intersection is:",
+    "options": [
+      "15 mph",
+      "20 mph",
+      "25 mph",
+      "30 mph"
+    ],
+    "answer": 0,
+    "explanation": "The speed limit for a blind intersection is 15 mph."
+  },
+  {
+    "question": "The speed limit in an alley is:",
+    "options": [
+      "10 mph",
+      "15 mph",
+      "20 mph",
+      "25 mph"
+    ],
+    "answer": 1,
+    "explanation": "The speed limit in any alley is 15 mph."
+  },
+  {
+    "question": "U-turns are illegal in business districts unless:",
+    "options": [
+      "You are in a hurry",
+      "There are no other cars",
+      "You are at an intersection or opening for turns",
+      "It is night time"
+    ],
+    "answer": 2,
+    "explanation": "U-turns in business districts are generally illegal unless at an intersection or designated opening.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "You must not park within ___ feet of a fire hydrant.",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "answer": 1,
+    "explanation": "Do not park within 15 feet of a fire hydrant."
+  },
+  {
+    "question": "When two vehicles meet on a steep road where neither can pass, which vehicle must yield?",
+    "options": [
+      "The vehicle facing uphill",
+      "The vehicle facing downhill",
+      "The larger vehicle",
+      "The smaller vehicle"
+    ],
+    "answer": 1,
+    "explanation": "The vehicle facing downhill must yield (back up) because the uphill vehicle has less control backing down.",
+    "image": "images/sign_yield.png"
+  },
+  {
+    "question": "You may drive in a bike lane:",
+    "options": [
+      "Whenever you want",
+      "No more than 200 feet before making a turn",
+      "To pass other cars",
+      "If no bikes are present"
+    ],
+    "answer": 1,
+    "explanation": "You may enter a bike lane only within 200 feet of a turn."
+  },
+  {
+    "question": "If you are towing a trailer on a freeway with 4 lanes, you may drive in:",
+    "options": [
+      "Any lane",
+      "The left lane",
+      "The two right-most lanes",
+      "The shoulder"
+    ],
+    "answer": 2,
+    "explanation": "Vehicles towing trailers must use the right-most lane or the two right-most lanes."
+  },
+  {
+    "question": "The 'Basic Speed Law' states that:",
+    "options": [
+      "You must never drive faster than the posted limit",
+      "You must never drive faster than is safe for current conditions",
+      "You must always drive at least 10 mph",
+      "Speed limits are suggestions"
+    ],
+    "answer": 1,
+    "explanation": "Basic Speed Law: Never drive faster than is safe for current conditions."
+  },
+  {
+    "question": "When passing a bicyclist, you should allow at least ___ feet of space.",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 1,
+    "explanation": "California law requires at least 3 feet of clearance when passing a bike.",
+    "image": "images/sign_bicycle.png"
+  },
+  {
+    "question": "If a person is crossing the street between intersections (jaywalking), you should:",
+    "options": [
+      "Honk and keep going",
+      "Stop and let them cross",
+      "Drive around them",
+      "Yell at them"
+    ],
+    "answer": 1,
+    "explanation": "Drivers must always yield to pedestrians, even if they are jaywalking.",
+    "image": "images/sign_yield.png"
+  },
+  {
+    "question": "When can you pass a vehicle on the right?",
+    "options": [
+      "When the driver ahead is turning left",
+      "On a highway with two or more lanes in your direction",
+      "Both of the above",
+      "Never"
+    ],
+    "answer": 2,
+    "explanation": "You can pass on the right if the vehicle is turning left or on a multi-lane highway."
+  },
+  {
+    "question": "You may drive off the paved roadway to pass another vehicle:",
+    "options": [
+      "If the shoulder is wide enough",
+      "If the vehicle ahead is turning left",
+      "Under no circumstances",
+      "If traffic is heavy"
+    ],
+    "answer": 2,
+    "explanation": "Never drive off the paved roadway to pass."
+  },
+  {
+    "question": "When approaching a roundabout, you should:",
+    "options": [
+      "Stop completely",
+      "Speed up to enter",
+      "Yield to traffic already in the roundabout",
+      "Honk"
+    ],
+    "answer": 2,
+    "explanation": "Yield to traffic already circulating in the roundabout.",
+    "image": "images/sign_yield.png"
+  },
+  {
+    "question": "You must not park within ___ feet of a railroad track.",
+    "options": [
+      "7.5",
+      "10",
+      "15",
+      "25"
+    ],
+    "answer": 0,
+    "explanation": "Do not park within 7.5 feet of a railroad track.",
+    "image": "images/sign_railroad_crossing.png"
+  },
+  {
+    "question": "You must not park within ___ feet of a driveway.",
+    "options": [
+      "3",
+      "5",
+      "10",
+      "15"
+    ],
+    "answer": 0,
+    "explanation": "Do not block a driveway. (Some cities have specific distances, but blocking is illegal)."
+  },
+  {
+    "question": "When two vehicles enter an intersection from different highways at the same time, which vehicle must yield?",
+    "options": [
+      "The vehicle on the left",
+      "The vehicle on the right",
+      "The vehicle going faster",
+      "The vehicle going straight"
+    ],
+    "answer": 0,
+    "explanation": "The vehicle on the left must yield to the vehicle on the right.",
+    "image": "images/sign_yield.png"
+  },
+  {
+    "question": "Unless otherwise posted, the speed limit on a two-lane undivided highway is:",
+    "options": [
+      "55 mph",
+      "65 mph",
+      "70 mph",
+      "45 mph"
+    ],
+    "answer": 0,
+    "explanation": "Maximum speed on two-lane undivided highways is generally 55 mph.",
+    "image": "images/sign_speed_limit_55.png"
+  },
+  {
+    "question": "When driving on a wet road, you should reduce your speed by:",
+    "options": [
+      "5-10 mph",
+      "50%",
+      "100%",
+      "None"
+    ],
+    "answer": 0,
+    "explanation": "Reduce speed by 5-10 mph on wet roads.",
+    "image": "images/sign_slippery_when_wet.png"
+  },
+  {
+    "question": "Bicyclists must:",
+    "options": [
+      "Ride against traffic",
+      "Ride with traffic",
+      "Ride on the sidewalk",
+      "Ride in the center of the lane always"
+    ],
+    "answer": 1,
+    "explanation": "Bicyclists must ride in the same direction as traffic.",
+    "image": "images/sign_bicycle.png"
+  },
+  {
+    "question": "When passing a bicyclist in a travel lane, you must ensure there is enough width for the cyclist. The amount of space required is:",
+    "options": [
+      "1 foot",
+      "3 feet",
+      "10 feet",
+      "No specific amount"
+    ],
+    "answer": 1,
+    "explanation": "3 feet is the minimum passing distance for cyclists.",
+    "image": "images/sign_bicycle.png"
+  },
+  {
+    "question": "To help avoid a collision, you should:",
+    "options": [
+      "Keep a space cushion around your vehicle",
+      "Drive close to the car ahead",
+      "Focus only on the road directly in front",
+      "Drive fast"
+    ],
+    "answer": 0,
+    "explanation": "Maintain a space cushion on all sides.",
+    "image": "images/warning_signs.webp"
+  },
+  {
+    "question": "If your vehicle breaks down on the freeway, you should:",
+    "options": [
+      "Stay in the car with seatbelt on",
+      "Stand behind the car",
+      "Walk to the exit",
+      "Flag down cars"
+    ],
+    "answer": 0,
+    "explanation": "Stay inside with your seatbelt on until help arrives."
+  },
+  {
+    "question": "When merging onto the freeway, you should be driving:",
+    "options": [
+      "At or near the same speed as the traffic on the freeway",
+      "5-10 mph slower",
+      "Faster than traffic",
+      "30 mph"
+    ],
+    "answer": 0,
+    "explanation": "Match the speed of traffic."
+  },
+  {
+    "question": "If you approach a curve or the top of a hill and you do not have a clear view of the road ahead, you should:",
+    "options": [
+      "Slow down",
+      "Speed up",
+      "Pass",
+      "Honk"
+    ],
+    "answer": 0,
+    "explanation": "Slow down so you can stop if needed.",
+    "image": "images/sign_stop.png"
+  },
+  {
+    "question": "A provisional driver (under 18) may not drive between:",
+    "options": [
+      "11 pm and 5 am",
+      "10 pm and 6 am",
+      "Midnight and 4 am",
+      "Sunset and sunrise"
+    ],
+    "answer": 0,
+    "explanation": "11 pm to 5 am restriction for first 12 months."
+  },
+  {
+    "question": "NEVs (Neighborhood Electric Vehicles) have a maximum speed of:",
+    "options": [
+      "15 mph",
+      "25 mph",
+      "35 mph",
+      "45 mph"
+    ],
+    "answer": 1,
+    "explanation": "NEVs max out at 25 mph."
+  },
+  {
+    "question": "It is illegal to drive a vehicle that is:",
+    "options": [
+      "Unsafe",
+      "Dirty",
+      "Old",
+      "Noisy"
+    ],
+    "answer": 0,
+    "explanation": "Illegal to drive an unsafe vehicle."
+  },
+  {
+    "question": "If you encounter deep water on the roadway:",
+    "options": [
+      "Avoid driving through it if possible",
+      "Drive through it fast",
+      "Drive through it slowly",
+      "Get out and swim"
+    ],
+    "answer": 0,
+    "explanation": "Avoid deep water; it can stall your engine or float your car."
+  },
+  {
+    "question": "When driving on a one-way street, you may turn left onto another one-way street:",
+    "options": [
+      "If traffic moves to the left",
+      "If traffic moves to the right",
+      "Never",
+      "Always"
+    ],
+    "answer": 0,
+    "explanation": "Left turn on red allowed one-way to one-way."
+  },
+  {
+    "question": "You should not pass another vehicle:",
+    "options": [
+      "On a hill or curve where vision is blocked",
+      "On a straight road",
+      "On a highway",
+      "When they are slow"
+    ],
+    "answer": 0,
+    "explanation": "Do not pass if you can't see ahead."
+  },
+  {
+    "question": "A 'Space Cushion' is:",
+    "options": [
+      "An open area around your vehicle",
+      "A pillow",
+      "A parking spot",
+      "A seat"
+    ],
+    "answer": 0,
+    "explanation": "Space cushion gives you room to maneuver."
+  },
+  {
+    "question": "When passing another vehicle, it is safe to return to your lane if you:",
+    "options": [
+      "Cannot see the vehicle directly to your right",
+      "See the vehicle's headlights in your rearview mirror",
+      "Have passed the front bumper of the other vehicle",
+      "Are 50 feet ahead"
+    ],
+    "answer": 1,
+    "explanation": "Wait until you can see both headlights of the passed car in your rearview mirror.",
+    "image": "images/traffic_light_red.png"
+  },
+  {
+    "question": "When making a right turn from a highway with two lanes in your direction, you may turn from:",
+    "options": [
+      "The lane nearest the curb or edge of the roadway",
+      "The left lane",
+      "Either lane",
+      "The shoulder"
+    ],
+    "answer": 0,
+    "explanation": "Turn from the lane closest to the right edge."
+  },
+  {
+    "question": "What does the green arrow on a lane-use control signal tell you?",
+    "options": [
+      "Stop and wait",
+      "You may use this lane",
+      "Turn around",
+      "Speed up and pass quickly"
+    ],
+    "answer": 1,
+    "explanation": "Correct Answer: You may use this lane",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "What should you do before moving your car into another lane on a big road?",
+    "options": [
+      "Quickly change lanes without signaling",
+      "Speed up and squeeze between two cars",
+      "Come to a complete stop then merge",
+      "Use your turn signal, check mirrors and blind spots, ensure it's safe to merge"
+    ],
+    "answer": 3,
+    "explanation": "Correct Answer: Use your turn signal, check mirrors and blind spots, ensure it's safe to merge",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "What color are lines that separate lanes of traffic moving in the same direction?",
+    "options": [
+      "Red",
+      "White",
+      "Green",
+      "Blue"
+    ],
+    "answer": 1,
+    "explanation": "Correct Answer: White",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "What should you do when you park your car on an uphill street with a curb?",
+    "options": [
+      "Turn front wheels toward the curb",
+      "Keep wheels straight",
+      "Speed up and honk",
+      "Turn front wheels away from the curb"
+    ],
+    "answer": 3,
+    "explanation": "Correct Answer: Turn front wheels away from the curb",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "What should you do when you want to move your car from one lane to another?",
+    "options": [
+      "Close your eyes",
+      "Signal, check mirrors, blind spots, then change lanes",
+      "Drive as fast as you can",
+      "Honk your horn"
+    ],
+    "answer": 1,
+    "explanation": "Correct Answer: Signal, check mirrors, blind spots, then change lanes",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "What does a sign with a red circle and line through it mean?",
+    "options": [
+      "You should do that action",
+      "It's a suggestion",
+      "You can choose to do that",
+      "The action is forbidden"
+    ],
+    "answer": 3,
+    "explanation": "Correct Answer: The action is forbidden",
+    "image": "images/sign_do_not_enter.png"
+  },
+  {
+    "question": "What is the proper way to signal when changing lanes?",
+    "options": [
+      "signal and immediately change lanes",
+      "look over your shoulder, then signal, then change lanes",
+      "change lanes and then signalAnswer: B"
+    ],
+    "answer": 1,
+    "explanation": "Correct Answer: look over your shoulder, then signal, then change lanes",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "Do you need to signal when you pull away from the curb?",
+    "options": [
+      "no, only when you approach the curb",
+      "yes, you need to signal when you pull away from the curb",
+      "only if there are other vehicles around youAnswer: B"
+    ],
+    "answer": 1,
+    "explanation": "Correct Answer: yes, you need to signal when you pull away from the curb",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "How long before changing lanes on a freeway should you signal?",
+    "options": [
+      "two seconds",
+      "four seconds",
+      "five seconds Answer: C"
+    ],
+    "answer": 2,
+    "explanation": "Correct Answer: five seconds Answer: C",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "When is it required to signal before changing lanes?",
+    "options": [
+      "at all times",
+      "only when there are other vehicles nearby",
+      "only when changing lanes on a freewayAnswer: A"
+    ],
+    "answer": 0,
+    "explanation": "Correct Answer: at all times",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "You can drive in a carpool lane if:",
+    "options": [
+      "You have the minimum number of passengers shown on the sign",
+      "You are driving an empty 15-passenger van",
+      "You want to pass the vehicle ahead",
+      "It is raining"
+    ],
+    "answer": 0,
+    "explanation": "Carpool lanes are for vehicles with 2 or more people (or as posted)."
+  },
+  {
+    "question": "Two sets of solid, double yellow lines that are two or more feet apart:",
+    "options": [
+      "May be crossed to enter a private driveway",
+      "Should be treated as a solid wall and not crossed",
+      "Denote a lane for beginning or ending left turns",
+      "Are for passing only"
+    ],
+    "answer": 1,
+    "explanation": "These are considered a barrier. Do not drive on or over this barrier.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "A solid white line between lanes of traffic means:",
+    "options": [
+      "You may change lanes if safe",
+      "You should stay in your lane",
+      "Traffic is moving in opposite directions",
+      "Passing is allowed"
+    ],
+    "answer": 1,
+    "explanation": "Solid white lines indicate that lane changes are discouraged or illegal.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "A painted red curb means:",
+    "options": [
+      "Loading zone for passengers",
+      "Loading zone for freight",
+      "No stopping, standing, or parking",
+      "Limited time parking"
+    ],
+    "answer": 2,
+    "explanation": "Red curb means no stopping, standing, or parking (except buses in some zones).",
+    "image": "images/sign_stop.png"
+  },
+  {
+    "question": "A painted blue curb means:",
+    "options": [
+      "Parking for disabled persons with a placard",
+      "Passenger loading only",
+      "Commercial loading only",
+      "Short term parking"
+    ],
+    "answer": 0,
+    "explanation": "Blue curbs are reserved for vehicles displaying a disabled person placard or plates.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "A painted green curb means:",
+    "options": [
+      "Park for a limited time",
+      "Loading zone",
+      "No parking",
+      "Emergency parking"
+    ],
+    "answer": 0,
+    "explanation": "Green curb means park for a limited time (look for a sign or time limit painted on curb).",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "A painted white curb means:",
+    "options": [
+      "Loading zone for passengers or mail",
+      "Loading zone for freight",
+      "No parking",
+      "Disabled parking"
+    ],
+    "answer": 0,
+    "explanation": "White curb is for loading or unloading passengers or mail only.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "A painted yellow curb means:",
+    "options": [
+      "Loading zone for passengers or freight",
+      "No parking anytime",
+      "School bus stop",
+      "Fire lane"
+    ],
+    "answer": 0,
+    "explanation": "Yellow curb is for loading/unloading passengers or freight. Drivers usually must stay with the car.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "When parking downhill on a street with a curb, your wheels should be turned:",
+    "options": [
+      "Toward the curb",
+      "Away from the curb",
+      "Parallel to the curb",
+      "Any direction"
+    ],
+    "answer": 0,
+    "explanation": "Downhill: Turn wheels TOWARD the curb.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "When parking uphill on a street with a curb, your wheels should be turned:",
+    "options": [
+      "Toward the curb",
+      "Away from the curb",
+      "Parallel to the curb",
+      "Any direction"
+    ],
+    "answer": 1,
+    "explanation": "Uphill with curb: Turn wheels AWAY from the curb.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "When parking uphill or downhill where there is no curb, turn your wheels:",
+    "options": [
+      "Toward the road",
+      "Toward the shoulder/side of the road",
+      "Straight",
+      "Left"
+    ],
+    "answer": 1,
+    "explanation": "No curb: Always turn wheels toward the shoulder so the car rolls away from traffic.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "Always look carefully for motorcycles before changing lanes because:",
+    "options": [
+      "They always have the right of way",
+      "They are smaller and harder to see",
+      "They are always speeding",
+      "They don't have lights"
+    ],
+    "answer": 1,
+    "explanation": "Motorcycles are smaller and can be easily hidden in blind spots."
+  },
+  {
+    "question": "When you park on a level road next to a curb:",
+    "options": [
+      "Your wheels must be within 18 inches of the curb",
+      "Your wheels must be within 12 inches",
+      "It doesn't matter",
+      "Turn wheels to curb"
+    ],
+    "answer": 0,
+    "explanation": "Wheels must be within 18 inches of the curb.",
+    "image": "images/regulatory_signs.webp"
+  },
+  {
+    "question": "If your vehicle starts to hydroplane, you should:",
+    "options": [
+      "Slow down gradually and not apply the brakes",
+      "Apply the brakes firmly",
+      "Accelerate slightly",
+      "Steer sharply"
+    ],
+    "answer": 0,
+    "explanation": "Do not brake. Ease off the gas."
+  }
+]

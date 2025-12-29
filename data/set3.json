@@ -1,0 +1,561 @@
+[
+  {
+    "question": "What happens to roads when they become very cold?",
+    "options": [
+      "Roads stay the same",
+      "Roads can become more brittle and prone to cracking or potholes",
+      "Roads become softer",
+      "Roads become smoother"
+    ],
+    "answer": 1,
+    "explanation": "Correct Answer: Roads can become more brittle and prone to cracking or potholes"
+  },
+  {
+    "question": "What should a driver do when getting onto the Interstate from an entrance ramp?",
+    "options": [
+      "Honk",
+      "Drive as fast as possible",
+      "Yield to drivers already on the interstate",
+      "Stop and have a snack"
+    ],
+    "answer": 2,
+    "explanation": "Correct Answer: Yield to drivers already on the interstate",
+    "image": "images/sign_yield.png"
+  },
+  {
+    "question": "When entering a freeway, you should:",
+    "options": [
+      "Stop before merging",
+      "Accelerate to the speed of traffic",
+      "Drive slowly",
+      "Wait for a gap"
+    ],
+    "answer": 1,
+    "explanation": "Accelerate to match the speed of freeway traffic before merging."
+  },
+  {
+    "question": "Smoking inside a vehicle when a person younger than 18 is present is:",
+    "options": [
+      "Legal",
+      "Illegal at all times",
+      "Allowed with windows open",
+      "Allowed if parked"
+    ],
+    "answer": 1,
+    "explanation": "It is illegal to smoke in a car with a minor present."
+  },
+  {
+    "question": "Why is the draw bar or towing connection important when pulling a trailer?",
+    "options": [
+      "Enhances vehicle appearance",
+      "Helps fuel efficiency",
+      "Ensures safe and secure towing",
+      "Provides extra storage"
+    ],
+    "answer": 2,
+    "explanation": "Correct Answer: Ensures safe and secure towing"
+  },
+  {
+    "question": "When you enter traffic from a parking spot, you should:",
+    "options": [
+      "Wait for a large enough gap to get up to the speed of traffic",
+      "Drive slower than other traffic",
+      "Honk your horn",
+      "Expect other drivers to yield"
+    ],
+    "answer": 0,
+    "explanation": "Wait for a gap large enough to safely merge and reach traffic speed."
+  },
+  {
+    "question": "If you are driving 55mph on a two-lane highway, you are required to pull over if:",
+    "options": [
+      "You are followed by 5 or more vehicles",
+      "You are followed by 3 vehicles",
+      "It is raining",
+      "You are tired"
+    ],
+    "answer": 0,
+    "explanation": "If 5 or more vehicles are following you on a narrow road, pull over to let them pass.",
+    "image": "images/sign_speed_limit_55.png"
+  },
+  {
+    "question": "If your brakes fail, you should:",
+    "options": [
+      "Pump the brake pedal",
+      "Shift to a lower gear",
+      "Use the parking brake",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "Pump brakes, downshift, and carefully use the parking brake."
+  },
+  {
+    "question": "If your hood flies up while driving:",
+    "options": [
+      "Look through the gap under the hood or out the window",
+      "Slam on brakes",
+      "Stop in the lane",
+      "Drive faster"
+    ],
+    "answer": 0,
+    "explanation": "Look through the gap or out the side window and pull over."
+  },
+  {
+    "question": "When driving on packed snow, you should reduce your speed by:",
+    "options": [
+      "Half",
+      "5-10 mph",
+      "None",
+      "Drive 5 mph"
+    ],
+    "answer": 0,
+    "explanation": "Reduce speed by half on packed snow.",
+    "image": "images/sign_slippery_when_wet.png"
+  },
+  {
+    "question": "When driving on ice, you should:",
+    "options": [
+      "Slow to a crawl",
+      "Drive at the speed limit",
+      "Pump brakes",
+      "Use cruise control"
+    ],
+    "answer": 0,
+    "explanation": "Slow to a crawl on ice."
+  },
+  {
+    "question": "When you leave your vehicle, you should:",
+    "options": [
+      "Leave the engine running",
+      "Set the parking brake",
+      "Leave the keys in the ignition",
+      "Leave the window open"
+    ],
+    "answer": 1,
+    "explanation": "Always set the parking brake and take your keys."
+  },
+  {
+    "question": "Which of these is a safe driving practice?",
+    "options": [
+      "Checking your phone",
+      "Eating while driving",
+      "Checking mirrors frequently",
+      "Looking only at the car ahead"
+    ],
+    "answer": 2,
+    "explanation": "Check mirrors frequently to know what is around you."
+  },
+  {
+    "question": "If a vehicle merges in front of you too closely, you should:",
+    "options": [
+      "Honk",
+      "Take your foot off the gas",
+      "Slam on brakes",
+      "Swerve"
+    ],
+    "answer": 1,
+    "explanation": "Ease off the gas to create space."
+  },
+  {
+    "question": "You must not follow within ___ feet of a fire engine or ambulance with sirens on.",
+    "options": [
+      "100",
+      "200",
+      "300",
+      "500"
+    ],
+    "answer": 2,
+    "explanation": "Do not follow within 300 feet."
+  },
+  {
+    "question": "When driving on a multilane street with two-way traffic:",
+    "options": [
+      "You should drive ahead of or behind the other vehicles",
+      "You should drive alongside other vehicles",
+      "You should drive in the blind spot",
+      "Speed up"
+    ],
+    "answer": 0,
+    "explanation": "Avoid driving alongside other cars (in their blind spots). Drop back or pull ahead."
+  },
+  {
+    "question": "You should check your tire pressure:",
+    "options": [
+      "Every day",
+      "Every month",
+      "Every year",
+      "Never"
+    ],
+    "answer": 1,
+    "explanation": "Check tire pressure monthly."
+  },
+  {
+    "question": "Loose objects in your vehicle can be dangerous because:",
+    "options": [
+      "They are distracting",
+      "They can fly around during a crash",
+      "They look messy",
+      "All of the above"
+    ],
+    "answer": 1,
+    "explanation": "Loose objects become projectiles in a crash."
+  },
+  {
+    "question": "Which of the following contributes to traffic congestion?",
+    "options": [
+      "Tailgating",
+      "Unnecessary lane changes",
+      "Rubbernecking",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "All these behaviors cause traffic jams."
+  },
+  {
+    "question": "When driving on a one-lane mountain road, you should honk your horn if:",
+    "options": [
+      "You cannot see at least 200 feet ahead",
+      "You are going fast",
+      "It is raining",
+      "You see a deer"
+    ],
+    "answer": 0,
+    "explanation": "Honk on blind mountain curves.",
+    "image": "images/guide_signs.webp"
+  },
+  {
+    "question": "If you are about to be hit from the rear, you should:",
+    "options": [
+      "Release your seatbelt",
+      "Be ready to brake so you don't hit the car ahead",
+      "Close your eyes",
+      "Turn off the car"
+    ],
+    "answer": 1,
+    "explanation": "Brake to prevent a chain reaction."
+  },
+  {
+    "question": "If you are about to be hit from the side, you should:",
+    "options": [
+      "Hold the steering wheel tightly",
+      "Let go of the wheel",
+      "Jump out",
+      "Accelerate"
+    ],
+    "answer": 0,
+    "explanation": "Hold the wheel tight to maintain control."
+  },
+  {
+    "question": "You must not follow within ___ feet of a fire engine.",
+    "options": [
+      "300",
+      "500",
+      "100",
+      "50"
+    ],
+    "answer": 0,
+    "explanation": "300 feet."
+  },
+  {
+    "question": "When driving in high winds, you should:",
+    "options": [
+      "Reduce your speed",
+      "Drive close to other cars",
+      "Use high beams",
+      "Open all windows"
+    ],
+    "answer": 0,
+    "explanation": "Slow down for better control."
+  },
+  {
+    "question": "If your engine overheats, you should:",
+    "options": [
+      "Turn off the AC and turn on the heater",
+      "Drive faster",
+      "Pour cold water on the engine immediately",
+      "Ignore it"
+    ],
+    "answer": 0,
+    "explanation": "Turning on the heater helps dissipate heat."
+  },
+  {
+    "question": "If your ignition switch locks while driving:",
+    "options": [
+      "Do not turn the key to the lock position",
+      "Turn it to lock immediately",
+      "Remove the key",
+      "Scream"
+    ],
+    "answer": 0,
+    "explanation": "Turning to lock will lock the steering wheel."
+  },
+  {
+    "question": "When driving near a wildfire, you should:",
+    "options": [
+      "Turn on AC with recirculation",
+      "Open windows",
+      "Drive into the smoke",
+      "Stop"
+    ],
+    "answer": 0,
+    "explanation": "Recirculate air to keep smoke out."
+  },
+  {
+    "question": "During an earthquake, you should:",
+    "options": [
+      "Stop safely and stay in the vehicle",
+      "Drive faster",
+      "Run out of the car",
+      "Park under a bridge"
+    ],
+    "answer": 0,
+    "explanation": "Stop away from buildings/trees/bridges and stay inside.",
+    "image": "images/sign_stop.png"
+  },
+  {
+    "question": "To avoid sun glare, you should:",
+    "options": [
+      "Use your sun visors and wear sunglasses",
+      "Close your eyes",
+      "Drive faster",
+      "Look at the sun"
+    ],
+    "answer": 0,
+    "explanation": "Use visors and sunglasses."
+  },
+  {
+    "question": "Black ice is:",
+    "options": [
+      "Easy to see",
+      "Hard to see and very slippery",
+      "Not dangerous",
+      "Only found in summer"
+    ],
+    "answer": 1,
+    "explanation": "Black ice is nearly invisible."
+  },
+  {
+    "question": "When driving in snow, you should carry:",
+    "options": [
+      "Tire chains",
+      "A swimsuit",
+      "A fan",
+      "Loud speakers"
+    ],
+    "answer": 0,
+    "explanation": "Carry chains in snow areas.",
+    "image": "images/sign_slippery_when_wet.png"
+  },
+  {
+    "question": "If your power steering fails:",
+    "options": [
+      "It will be harder to steer, but you can still steer",
+      "You cannot steer at all",
+      "The car will explode",
+      "You should let go of the wheel"
+    ],
+    "answer": 0,
+    "explanation": "You can still steer, but it requires much more effort."
+  },
+  {
+    "question": "If your gas pedal gets stuck:",
+    "options": [
+      "Shift to neutral",
+      "Turn off the ignition immediately",
+      "Pull the pedal up with your hand",
+      "Brake hard only"
+    ],
+    "answer": 0,
+    "explanation": "Shift to neutral first."
+  },
+  {
+    "question": "If you see a collision ahead:",
+    "options": [
+      "Warn drivers behind you by tapping brakes",
+      "Speed up",
+      "Close your eyes",
+      "Change lanes without looking"
+    ],
+    "answer": 0,
+    "explanation": "Tap brakes to warn others.",
+    "image": "images/warning_signs.webp"
+  },
+  {
+    "question": "If you are being followed too closely (tailgated):",
+    "options": [
+      "Increase your following distance from the car ahead",
+      "Brake check",
+      "Speed up",
+      "Swerve"
+    ],
+    "answer": 0,
+    "explanation": "Increase space ahead so you can stop gradually.",
+    "image": "images/sign_stop.png"
+  },
+  {
+    "question": "Which road surface freezes first?",
+    "options": [
+      "Bridges and overpasses",
+      "Tunnel",
+      "Asphalt",
+      "Dirt"
+    ],
+    "answer": 0,
+    "explanation": "Bridges freeze first."
+  },
+  {
+    "question": "When driving on the highway, you should look ahead:",
+    "options": [
+      "10 to 15 seconds",
+      "5 seconds",
+      "At the car in front of you",
+      "At the scenery"
+    ],
+    "answer": 0,
+    "explanation": "Scan 10-15 seconds ahead on highways."
+  },
+  {
+    "question": "When exiting a highway on a ramp that curves downhill, you should:",
+    "options": [
+      "Slow to a safe speed before the curve",
+      "Brake in the curve",
+      "Accelerate",
+      "Coast"
+    ],
+    "answer": 0,
+    "explanation": "Slow down before the curve."
+  },
+  {
+    "question": "To warn drivers behind you that you are slowing down unexpectedly, you can:",
+    "options": [
+      "Tap your brake pedal a few times",
+      "Turn on your high beams",
+      "Wave your hand",
+      "Honk"
+    ],
+    "answer": 0,
+    "explanation": "Tap brakes to flash lights.",
+    "image": "images/traffic_light_red.png"
+  },
+  {
+    "question": "When passing a vehicle on a two-lane road, you need a gap in oncoming traffic of at least:",
+    "options": [
+      "10-12 seconds",
+      "5 seconds",
+      "2 seconds",
+      "1 minute"
+    ],
+    "answer": 0,
+    "explanation": "You need a large gap (10-12 secs) to pass safely."
+  },
+  {
+    "question": "When merging onto a freeway, you need a gap of at least:",
+    "options": [
+      "4 seconds",
+      "2 seconds",
+      "1 second",
+      "10 seconds"
+    ],
+    "answer": 0,
+    "explanation": "Need about a 4-second gap."
+  },
+  {
+    "question": "When driving on gravel or dirt, you should:",
+    "options": [
+      "Slow down because you have less traction",
+      "Speed up",
+      "Drive normally",
+      "Use high beams"
+    ],
+    "answer": 0,
+    "explanation": "Traction is lower on gravel; slow down."
+  },
+  {
+    "question": "You should adjust your rearview and side mirrors:",
+    "options": [
+      "Before you start driving",
+      "While driving",
+      "Only if you are towing",
+      "Never"
+    ],
+    "answer": 0,
+    "explanation": "Adjust mirrors before you start driving."
+  },
+  {
+    "question": "You should adjust your seat so that:",
+    "options": [
+      "You are high enough to see the road",
+      "You can reach all controls",
+      "You are comfortable",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "Seat adjustment is critical for control and visibility."
+  },
+  {
+    "question": "Carbon monoxide is a deadly gas that is:",
+    "options": [
+      "Odorless and colorless",
+      "Smells like gas",
+      "Visible as smoke",
+      "Safe"
+    ],
+    "answer": 0,
+    "explanation": "Carbon monoxide is odorless and colorless. Never run engine in closed garage."
+  },
+  {
+    "question": "If you are driving in extreme heat, you should:",
+    "options": [
+      "Watch your temperature gauge",
+      "Turn on the heater",
+      "Drive faster",
+      "Ignore it"
+    ],
+    "answer": 0,
+    "explanation": "Watch for overheating."
+  },
+  {
+    "question": "If your vehicle breaks down in a remote area:",
+    "options": [
+      "Stay with your vehicle",
+      "Walk for help",
+      "Sleep on the ground",
+      "Hide"
+    ],
+    "answer": 0,
+    "explanation": "Stay with the vehicle; it's easier for rescuers to find."
+  },
+  {
+    "question": "When driving in very cold weather, you should:",
+    "options": [
+      "Watch for ice on bridges",
+      "Drive fast to warm up tires",
+      "Use summer tires",
+      "Ignore the cold"
+    ],
+    "answer": 0,
+    "explanation": "Bridges freeze first."
+  },
+  {
+    "question": "If your brakes fail while going down a hill:",
+    "options": [
+      "Shift to a lower gear",
+      "Turn off the engine",
+      "Jump out",
+      "Accelerate"
+    ],
+    "answer": 0,
+    "explanation": "Downshift to use engine braking."
+  },
+  {
+    "question": "If a tire blows out:",
+    "options": [
+      "Keep the vehicle going straight",
+      "Turn quickly",
+      "Brake hard",
+      "Accelerate"
+    ],
+    "answer": 0,
+    "explanation": "Keep straight and slow down gradually."
+  }
+]
