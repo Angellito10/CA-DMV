@@ -258,7 +258,7 @@ body {
 }
 
 .set-card {
-    padding: 2.5rem;
+    padding: 2.25rem;
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -467,14 +467,14 @@ body {
     font-size: 2rem;
     font-weight: 800;
     color: var(--text-bright);
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     letter-spacing: -0.5px;
 }
 
 .card-content p {
     color: var(--text-muted);
     font-size: 1.15rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
     line-height: 1.7;
 }
 
@@ -666,7 +666,7 @@ body {
 }
 
 .question-card {
-    padding: 3.5rem !important;
+    padding: 2.5rem !important;
 }
 
 .image-container {
@@ -709,7 +709,7 @@ body {
     display: flex;
     align-items: center;
     gap: 1.5rem;
-    padding: 1.25rem 1.75rem;
+    padding: 0.9rem 1.25rem;
     background: var(--bg-card);
     border: 2px solid var(--border);
     border-radius: var(--inner-radius);
@@ -735,9 +735,9 @@ body {
 }
 
 .option-circle {
-    width: 52px;
-    height: 52px;
-    min-width: 52px;
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
     border-radius: 14px;
     background: var(--bg-body);
     border: 1px solid var(--border);
@@ -746,7 +746,7 @@ body {
     justify-content: center;
     font-family: 'JetBrains Mono', monospace;
     font-weight: 800;
-    font-size: 1.35rem;
+    font-size: 1.15rem;
     color: var(--primary);
     transition: var(--transition);
 }
