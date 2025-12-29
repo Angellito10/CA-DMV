@@ -346,11 +346,24 @@ class QuizApp {
         this.currentPartIndex = partIndex;
         try {
             const set = window.QUIZ_DATA[setId];
-            const data = set ? set.parts[partIndex] : null;
+            let data = set ? set.parts[partIndex] : null;
 
             if (!data || data.length === 0) throw new Error('No questions found.');
 
-            this.currentSet = data;
+            // Deep clone and Shuffle Questions
+            this.currentSet = this.shuffleArray([...data]).map(q => {
+                const originalOptions = [...q.options];
+                const correctAnswerText = originalOptions[q.answer];
+                const shuffledOptions = this.shuffleArray([...originalOptions]);
+                const newAnswerIndex = shuffledOptions.indexOf(correctAnswerText);
+
+                return {
+                    ...q,
+                    options: shuffledOptions,
+                    answer: newAnswerIndex
+                };
+            });
+
             this.currentQuestionIndex = 0;
             this.score = 0;
             this.userAnswers = new Array(this.currentSet.length).fill(null);
@@ -362,6 +375,14 @@ class QuizApp {
             alert('Could not load quiz data.');
             this.showView('home');
         }
+    }
+
+    shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
     }
 
     renderQuestion() {
