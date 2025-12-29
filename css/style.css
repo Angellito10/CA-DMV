@@ -773,26 +773,105 @@ body {
 
 .explanation-box {
     margin-top: 3rem;
-    padding: 2rem;
+    padding: 0;
     border-radius: var(--inner-radius);
-    background: var(--bg-body);
+    background: var(--bg-card);
     border: 1px solid var(--border);
     display: none;
+    overflow: hidden;
 }
 
 .explanation-box.active {
     display: block;
-    animation: slideIn 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    animation: slideIn 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.explanation-box.correct {
-    background: var(--correct-glow);
-    border: 1px solid var(--correct);
+.feedback-content {
+    display: flex;
+    flex-direction: column;
 }
 
-.explanation-box.wrong {
-    background: var(--wrong-glow);
-    border: 1px solid var(--wrong);
+.feedback-header {
+    padding: 1.5rem 2rem 0.5rem;
+}
+
+.feedback-status {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1.25rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+}
+
+.feedback-status i {
+    font-size: 1.75rem;
+}
+
+.feedback-body {
+    padding: 0 2rem 1.5rem;
+}
+
+.feedback-body p {
+    color: var(--text-main);
+    font-size: 1.05rem;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+.feedback-actions {
+    padding: 1.5rem 2rem;
+    background: rgba(0, 0, 0, 0.02);
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+    .explanation-box.active {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0;
+        border-radius: 24px 24px 0 0;
+        z-index: 1500;
+        background: var(--bg-glass);
+        backdrop-filter: blur(25px);
+        -webkit-backdrop-filter: blur(25px);
+        box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.2);
+        animation: sheetUp 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+        border: none;
+        border-top: 1px solid var(--border-strong);
+    }
+
+    .feedback-actions {
+        padding: 1rem;
+    }
+
+    .feedback-actions .quiz-btn {
+        width: 100%;
+        margin: 0;
+    }
+
+    .feedback-header {
+        padding: 1.5rem 1.5rem 0.5rem;
+    }
+
+    .feedback-body {
+        padding: 0 1.5rem 1rem;
+    }
+}
+
+@keyframes sheetUp {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
 }
 
 @keyframes slideIn {

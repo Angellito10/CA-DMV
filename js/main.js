@@ -25,7 +25,6 @@ class QuizApp {
             progressBar: document.getElementById('progress-bar'),
             explanationBox: document.getElementById('explanation-box'),
             explanationText: document.getElementById('explanation-text'),
-            nextBtn: document.getElementById('next-btn'),
             prevBtn: document.getElementById('prev-btn'),
             imageContainer: document.getElementById('image-container'),
             questionImage: document.getElementById('question-image'),
@@ -50,8 +49,7 @@ class QuizApp {
             card.addEventListener('click', () => this.showSubSections(card.dataset.set));
         });
 
-        this.elements.nextBtn.addEventListener('click', () => this.nextQuestion());
-        this.elements.prevBtn.addEventListener('click', () => this.prevQuestion());
+        if (this.elements.prevBtn) this.elements.prevBtn.addEventListener('click', () => this.prevQuestion());
 
         document.getElementById('home-btn-quiz').addEventListener('click', () => this.showView('home'));
         document.getElementById('home-btn-results').addEventListener('click', () => this.showView('home'));
@@ -432,9 +430,6 @@ class QuizApp {
 
         if (userAnswer) {
             this.showFeedback(userAnswer.isCorrect, question.explanation);
-            this.elements.nextBtn.disabled = false;
-        } else {
-            this.elements.nextBtn.disabled = true;
         }
 
         this.elements.prevBtn.disabled = this.currentQuestionIndex === 0;
@@ -466,7 +461,6 @@ class QuizApp {
         });
 
         this.showFeedback(isCorrect, question.explanation);
-        this.elements.nextBtn.disabled = false;
         this.elements.scoreTracker.textContent = `Score: ${this.score}`;
     }
 
@@ -476,17 +470,37 @@ class QuizApp {
 
         const icon = isCorrect ? 'ri-checkbox-circle-fill' : 'ri-close-circle-fill';
         const title = isCorrect ? 'Excellent! Correct' : 'Not Quite Right';
-        const accentColor = isCorrect ? 'var(--correct)' : 'var(--wrong)';
+        const accentColor = isCorrect ? 'var(--text-bright)' : 'var(--text-muted)';
+        const statusColor = isCorrect ? 'var(--correct)' : 'var(--wrong)';
+
+        const isLast = this.currentQuestionIndex === this.currentSet.length - 1;
+        const buttonText = isLast ? 'FINISH EXAM' : 'NEXT QUESTION';
+        const buttonIcon = isLast ? 'ri-flag-line' : 'ri-arrow-right-line';
 
         this.elements.explanationBox.innerHTML = `
-            <div style="display:flex; align-items:center; gap:0.75rem; margin-bottom:1rem; color:${accentColor}; font-size:1.25rem;">
-                <i class="${icon}" style="font-size:1.75rem;"></i>
-                <span style="font-weight:900; letter-spacing:-0.5px; text-transform:uppercase;">${title}</span>
-            </div>
-            <div style="padding:1.25rem; background:var(--bg-card); border-radius:12px; border-left:4px solid ${accentColor}; box-shadow:var(--shadow-sm);">
-                <p style="color:var(--text-main); font-size:1.05rem; line-height:1.6; font-weight:500;">${explanation}</p>
+            <div class="feedback-content">
+                <div class="feedback-header">
+                    <div class="feedback-status" style="color:${statusColor}">
+                        <i class="${icon}"></i>
+                        <span>${title}</span>
+                    </div>
+                </div>
+                
+                <div class="feedback-body">
+                    <p>${explanation}</p>
+                </div>
+
+                <div class="feedback-actions">
+                    <button class="quiz-btn primary next-trigger">
+                        ${buttonText} <i class="${buttonIcon}"></i>
+                    </button>
+                </div>
             </div>
         `;
+
+        // Attach listener to the new button
+        const btn = this.elements.explanationBox.querySelector('.next-trigger');
+        if (btn) btn.onclick = () => this.nextQuestion();
     }
 
     nextQuestion() {
