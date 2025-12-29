@@ -102,7 +102,7 @@ class QuizApp {
         // Keyboard Navigation
         document.addEventListener('keydown', (e) => {
             if (this.views.quiz.classList.contains('active')) {
-                if (e.key === 'ArrowRight' && !this.elements.nextBtn.disabled) {
+                if (e.key === 'ArrowRight' && this.elements.explanationBox.classList.contains('active')) {
                     this.nextQuestion();
                 } else if (e.key === 'ArrowLeft' && !this.elements.prevBtn.disabled) {
                     this.prevQuestion();
@@ -433,7 +433,6 @@ class QuizApp {
         }
 
         this.elements.prevBtn.disabled = this.currentQuestionIndex === 0;
-        this.elements.nextBtn.innerHTML = this.currentQuestionIndex === this.currentSet.length - 1 ? 'Finish <i class="ri-flag-line"></i>' : 'Next <i class="ri-arrow-right-line"></i>';
     }
 
     handleAnswer(selectedIndex, btnElement) {
