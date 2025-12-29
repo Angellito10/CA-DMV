@@ -12,11 +12,6 @@ The definitive high-fidelity simulation platform for California road readiness. 
 ## 🚀 Deployment
 This repository is optimized for **GitHub Pages**.
 
-1. Go to **Settings** > **Pages**.
-2. Select the `main` branch as the source.
-3. Click **Save**.
-
-Your platform will be live at `https://<your-username>.github.io/CA-DMV/`
 
 ---
 *Built for a Safer Road. © 2026*
