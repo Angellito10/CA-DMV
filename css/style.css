@@ -90,10 +90,11 @@ html {
 body {
     background-color: var(--bg-body);
     background-image:
-        radial-gradient(circle at 10% 20%, rgba(79, 70, 229, 0.05) 0%, transparent 40%),
-        radial-gradient(circle at 90% 80%, rgba(14, 165, 233, 0.05) 0%, transparent 40%),
-        radial-gradient(circle at 50% 50%, rgba(244, 63, 94, 0.02) 0%, transparent 60%),
-        linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, var(--bg-body) 100%);
+        repeating-linear-gradient(120deg, transparent, transparent 80px, var(--border-strong) 80px, var(--border-strong) 81px),
+        repeating-linear-gradient(60deg, transparent, transparent 80px, var(--border-strong) 80px, var(--border-strong) 81px),
+        radial-gradient(circle at 10% 20%, rgba(79, 70, 229, 0.12) 0%, transparent 45%),
+        radial-gradient(circle at 90% 80%, rgba(14, 165, 233, 0.12) 0%, transparent 45%),
+        radial-gradient(circle at 50% 50%, rgba(244, 63, 94, 0.05) 0%, transparent 65%);
     background-attachment: fixed;
     color: var(--text-main);
     font-family: 'Outfit', sans-serif;
