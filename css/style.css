@@ -257,21 +257,85 @@ body {
 }
 
 .set-card {
-    padding: 2.25rem;
+    padding: 2.5rem;
     cursor: pointer;
     display: flex;
     flex-direction: column;
     height: 100%;
     position: relative;
     overflow: hidden;
+    border-left: 6px solid var(--primary);
+    /* Technical Accent */
+    transition: var(--transition);
+}
+
+/* Category Specific Accents */
+[data-set="set1"] {
+    border-left-color: var(--cat-1);
+}
+
+[data-set="set2"] {
+    border-left-color: var(--cat-2);
+}
+
+[data-set="set3"] {
+    border-left-color: var(--cat-3);
+}
+
+[data-set="set4"] {
+    border-left-color: var(--cat-4);
+}
+
+#study-btn {
+    border-left-color: var(--cat-study);
+}
+
+#video-btn {
+    border-left-color: var(--cat-video);
 }
 
 /* Hover/Touch Effects */
 .set-card:hover,
 .set-card:active {
-    transform: translateY(-8px);
-    border-color: var(--primary);
-    box-shadow: 15px 25px 50px -10px var(--primary-glow), 0 10px 20px -5px rgba(0, 0, 0, 0.1);
+    transform: translateY(-8px) translateX(4px);
+    border-color: var(--border-strong);
+    box-shadow: 20px 30px 60px -12px rgba(0, 0, 0, 0.15);
+}
+
+[data-set="set1"]:hover,
+[data-set="set1"]:active {
+    border-left-color: var(--cat-1);
+    border-left-width: 10px;
+}
+
+[data-set="set2"]:hover,
+[data-set="set2"]:active {
+    border-left-color: var(--cat-2);
+    border-left-width: 10px;
+}
+
+[data-set="set3"]:hover,
+[data-set="set3"]:active {
+    border-left-color: var(--cat-3);
+    border-left-width: 10px;
+}
+
+[data-set="set4"]:hover,
+[data-set="set4"]:active {
+    border-left-color: var(--cat-4);
+    border-left-width: 10px;
+}
+
+#study-btn:hover,
+#study-btn:active {
+    border-left-color: var(--cat-study);
+    border-left-width: 10px;
+}
+
+#video-btn:hover,
+#video-btn:active {
+    border-left-color: var(--cat-video);
+    border-left-width: 10px;
 }
 
 @media (hover: none) {
@@ -399,16 +463,18 @@ body {
 }
 
 .card-content h3 {
-    font-size: 1.75rem;
+    font-size: 2rem;
     font-weight: 800;
     color: var(--text-bright);
-    margin-bottom: 0.75rem;
+    margin-bottom: 1rem;
+    letter-spacing: -0.5px;
 }
 
 .card-content p {
     color: var(--text-muted);
-    font-size: 1.05rem;
-    margin-bottom: 2rem;
+    font-size: 1.15rem;
+    margin-bottom: 2.5rem;
+    line-height: 1.7;
 }
 
 .card-footer {
